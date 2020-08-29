@@ -1,0 +1,35 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/nayakkk/adders/almost_correct_adder16/msim/postsynth
+valmost_correct_adder16
+Vm]YWI9d4z4<35klo;bWeN3
+r1
+!s85 0
+31
+I8gfhMb>APdELQX7mjPB6@2
+Z1 d/home/nayakkk/adders/almost_correct_adder16/msim/postsynth
+w1597926832
+8/home/nayakkk/adders/almost_correct_adder16/msim/postsynth/almost_correct_adder16_netlist.v
+F/home/nayakkk/adders/almost_correct_adder16/msim/postsynth/almost_correct_adder16_netlist.v
+L0 8
+Z2 OL;L;6.6d;45
+Z3 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z4 !s102 -nocovercells
+!s100 4K?7[SiT94zZAbbJPhl?l1
+valmost_correct_adder16_tb
+VGn=dANEcFAbeocmn>@REo0
+r1
+31
+IL`cHQ3TW4MK`h_LYS_@=H0
+R1
+w1597062896
+8/home/nayakkk/adders/almost_correct_adder16/msim/postsynth/almost_correct_adder16_tb.v
+F/home/nayakkk/adders/almost_correct_adder16/msim/postsynth/almost_correct_adder16_tb.v
+L0 23
+R2
+R4
+R3
+!s85 0
+!s100 QSM`F;k_Sz7];ofc=nS5D2

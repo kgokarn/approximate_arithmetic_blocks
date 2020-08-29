@@ -1,0 +1,35 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/postsynth
+vxnor_based_carry_lookahead_adder16
+VWJEkY^iW`e8VzT0gS`:B21
+r1
+!s85 0
+31
+Ih:[PfdNYPG_Haij]aMme[0
+Z1 d/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/postsynth
+w1597829004
+8/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/postsynth/xnor_based_carry_lookahead_adder16_netlist.v
+F/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/postsynth/xnor_based_carry_lookahead_adder16_netlist.v
+L0 8
+Z2 OL;L;6.6d;45
+Z3 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z4 !s102 -nocovercells
+!s100 9`4ZlNQ[5IC?PENH;_<VR1
+vxnor_based_carry_lookahead_adder16_tb
+VKDRBeK^TPAjLUcf4GDUNm3
+r1
+31
+I`InECggAP]9zD@TQ`L5W<1
+R1
+w1596744585
+8/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/postsynth/xnor_based_carry_lookahead_adder16_tb.v
+F/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/postsynth/xnor_based_carry_lookahead_adder16_tb.v
+L0 23
+R2
+R4
+R3
+!s85 0
+!s100 :mCYHjJE_b`L;a=;Y7d[D3

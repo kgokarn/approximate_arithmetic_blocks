@@ -1,0 +1,36 @@
+/home/nayakkk/adders/error_tolerant_type2_adder16/msim/presynth/error_tolerant_type2_adder16.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/error_tolerant_type2_adder16/msim/presynth/error_tolerant_type2_adder16.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module error_tolerant_type2_adder16
+
+Top level modules:
+	error_tolerant_type2_adder16
+
+} {} {}} /home/nayakkk/adders/error_tolerant_type2_adder16/msim/presynth/ripple_carry_adder.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/error_tolerant_type2_adder16/msim/presynth/ripple_carry_adder.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module ripple_carry_adder
+
+Top level modules:
+	ripple_carry_adder
+
+} {} {}} /home/nayakkk/adders/error_tolerant_type2_adder16/msim/presynth/carry_generator.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/error_tolerant_type2_adder16/msim/presynth/carry_generator.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module carry_generator
+
+Top level modules:
+	carry_generator
+
+} {} {}} /home/nayakkk/adders/error_tolerant_type2_adder16/msim/presynth/error_tolerant_type2_adder16_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/error_tolerant_type2_adder16/msim/presynth/error_tolerant_type2_adder16_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module error_tolerant_type2_adder16_tb
+
+Top level modules:
+	error_tolerant_type2_adder16_tb
+
+} {} {}} /home/nayakkk/adders/error_tolerant_type2_adder16/msim/presynth/full_adder.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/error_tolerant_type2_adder16/msim/presynth/full_adder.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}}

@@ -1,0 +1,80 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/adders/lower_part_or_ripple_carry_adder16/msim/presynth
+valmost_correct_adder16
+VIJnSU^7@CCLc9BzX_h7Gb1
+r1
+31
+IfKGjn]B<CZmC3J_2TTMA^2
+Z0 d/home/nayakkk/adders/almost_correct_adder16/msim/presynth
+w1597058543
+8/home/nayakkk/adders/almost_correct_adder16/msim/presynth/almost_correct_adder16.v
+F/home/nayakkk/adders/almost_correct_adder16/msim/presynth/almost_correct_adder16.v
+L0 21
+Z1 OL;L;6.6d;45
+Z2 !s102 -nocovercells
+Z3 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s85 0
+!s100 CWH3XXzM4Y0:::_[FJ>]W2
+valmost_correct_adder16_tb
+VGn=dANEcFAbeocmn>@REo0
+r1
+31
+IKib4=DiKEaj`LmnbK`6[i3
+Z4 d/home/nayakkk/adders/almost_correct_adder16/msim/presynth
+w1597048427
+8/home/nayakkk/adders/almost_correct_adder16/msim/presynth/almost_correct_adder16_tb.v
+F/home/nayakkk/adders/almost_correct_adder16/msim/presynth/almost_correct_adder16_tb.v
+L0 23
+R1
+R2
+R3
+!s85 0
+!s100 ?9jmJ[Wi4Q<94ImlTP7zZ0
+vfull_adder
+V=k1M1;8@4Yl2Z09i7lMHQ1
+r1
+!s85 0
+31
+I6A:6_m]dMMPZfGj?iK4lU2
+R4
+w1597048279
+8/home/nayakkk/adders/almost_correct_adder16/msim/presynth/full_adder.v
+F/home/nayakkk/adders/almost_correct_adder16/msim/presynth/full_adder.v
+L0 21
+R1
+R2
+R3
+!s100 5zLOe<K3;X=:@;G9ihZNU2
+vsmall_adder
+Vj5oH`HVLXf;mgAj?n5lgB3
+r1
+31
+IaMUm=WzOWQHP`KcG?z1?Q0
+R4
+w1597058266
+8/home/nayakkk/adders/almost_correct_adder16/msim/presynth/small_adder.v
+F/home/nayakkk/adders/almost_correct_adder16/msim/presynth/small_adder.v
+L0 21
+R1
+R2
+R3
+!s85 0
+!s100 >O<<E[5a[>Dj6k=neb^ZR0
+vsmall_adder_msb
+VEibKU1n4FnRzjBLCF55KO3
+r1
+31
+IM[Pl?z:M@<doZ4YbenIl71
+R4
+w1597058315
+8/home/nayakkk/adders/almost_correct_adder16/msim/presynth/small_adder_msb.v
+F/home/nayakkk/adders/almost_correct_adder16/msim/presynth/small_adder_msb.v
+L0 21
+R1
+R2
+R3
+!s85 0
+!s100 LZQkDbYa6A:9cam7miDK80

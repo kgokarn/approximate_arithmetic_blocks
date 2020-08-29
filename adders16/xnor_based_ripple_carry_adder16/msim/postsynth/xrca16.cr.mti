@@ -1,0 +1,15 @@
+/home/nayakkk/adders/xnor_based_ripple_carry_adder16/msim/postsynth/xnor_based_ripple_carry_adder16_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/xnor_based_ripple_carry_adder16/msim/postsynth/xnor_based_ripple_carry_adder16_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module xnor_based_ripple_carry_adder16_tb
+
+Top level modules:
+	xnor_based_ripple_carry_adder16_tb
+
+} {} {}} /home/nayakkk/adders/xnor_based_ripple_carry_adder16/msim/postsynth/xnor_based_carry_ripple_adder16_netlist.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/xnor_based_ripple_carry_adder16/msim/postsynth/xnor_based_carry_ripple_adder16_netlist.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module xnor_based_ripple_carry_adder16
+
+Top level modules:
+	xnor_based_ripple_carry_adder16
+
+} {} {}}

@@ -1,0 +1,73 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/nayakkk/adders/lower_part_or_ripple_carry_adder16/msim/presynth
+T_opt
+V7^h[WXP?m]<]C2i[GLCSm1
+04 37 4 work xnor_based_carry_lookahead_adder16_tb fast 0
+=1-3cd92b595d5c-5f2bf278-d78da-761e
+o-quiet -auto_acc_if_foreign -work simulation
+n@_opt
+OL;O;6.6d;45
+Z1 d/home/nayakkk/adders/lower_part_or_ripple_carry_adder16/msim/presynth
+vfull_adder
+V=k1M1;8@4Yl2Z09i7lMHQ1
+r1
+!s85 0
+31
+I6A:6_m]dMMPZfGj?iK4lU2
+Z2 d/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/presynth
+w1595235727
+8/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/presynth/full_adder.v
+F/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/presynth/full_adder.v
+L0 21
+Z3 OL;L;6.6d;45
+Z4 !s102 -nocovercells
+Z5 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 5zLOe<K3;X=:@;G9ihZNU2
+vxnor_based_carry_lookahead_adder16
+VXZhl7KSPGOKUE^7KVQzJZ3
+r1
+31
+Ie>hdhFoSOgMW0SPF^:Z0?1
+R2
+w1596738309
+8/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/presynth/xnor_based_carry_lookahead_adder16.v
+F/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/presynth/xnor_based_carry_lookahead_adder16.v
+L0 21
+R3
+R4
+R5
+!s85 0
+!s100 <DKbEDzaVZF?OjfgQ?26z2
+vxnor_based_carry_lookahead_adder16_tb
+VKDRBeK^TPAjLUcf4GDUNm3
+r1
+31
+I@JA<RYF9AdY8JYeTzfMXA1
+R2
+w1596714941
+8/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/presynth/xnor_based_carry_lookahead_adder16_tb.v
+F/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/presynth/xnor_based_carry_lookahead_adder16_tb.v
+L0 23
+R3
+R4
+R5
+!s85 0
+!s100 hW8PSbecnI6j7KH<OA?PM1
+vxnor_full_adder
+VbXeCh7b:6TARCg2aK3_;12
+r1
+31
+IHR5`Gd@=d4eUkRQ?G:NM>3
+R2
+w1596715521
+8/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/presynth/xnor_full_adder.v
+F/home/nayakkk/adders/xnor_based_carry_lookahead_adder16/msim/presynth/xnor_full_adder.v
+L0 21
+R3
+R4
+R5
+!s85 0
+!s100 kMTD^^Wi]T6C[;?`Q`QbL2

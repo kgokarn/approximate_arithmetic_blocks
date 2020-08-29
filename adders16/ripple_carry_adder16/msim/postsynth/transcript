@@ -1,0 +1,128 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.14.2.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Window cannot be closed because the modal window "Welcome to ModelSim" is still open.
+# Project file /home/nayakkk/adders/ripple_carry_adder1# Loading project rca16
+# Compile of ripple_carry_adder16_netlist.v was successful.
+# Compile of ripple_carry_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -L /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/library -sdftyp /=/home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf -sdfnoerror -novopt simulation.ripple_carry_adder16_tb
+# vsim -L /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/library -sdftyp /=/home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf -sdfnoerror -novopt simulation.ripple_carry_adder16_tb 
+# Refreshing /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/simulation.ripple_carry_adder16_tb
+# Loading simulation.ripple_carry_adder16_tb
+# Refreshing /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/simulation.ripple_carry_adder16
+# Loading simulation.ripple_carry_adder16
+# Loading /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/library.XOR2_X1
+# Refreshing /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/library.OR2_X1
+# Loading /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/library.OR2_X1
+# Loading /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/library.NAND2_X1
+# SDF 6.6d Compiler 2010.11 Nov  1 2010
+# Loading instances from /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(72): Failed to find INSTANCE 'U100'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(70): Failed to find INSTANCE 'U101'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(61): Failed to find INSTANCE 'U102'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(66): Failed to find INSTANCE 'U103'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(64): Failed to find INSTANCE 'U104'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(55): Failed to find INSTANCE 'U105'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(60): Failed to find INSTANCE 'U106'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(58): Failed to find INSTANCE 'U107'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(25): Failed to find INSTANCE 'U108'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(54): Failed to find INSTANCE 'U109'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(52): Failed to find INSTANCE 'U110'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(43): Failed to find INSTANCE 'U111'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(48): Failed to find INSTANCE 'U112'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(46): Failed to find INSTANCE 'U113'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(37): Failed to find INSTANCE 'U114'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(42): Failed to find INSTANCE 'U115'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(40): Failed to find INSTANCE 'U116'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(38): Failed to find INSTANCE 'U117'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(36): Failed to find INSTANCE 'U118'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(34): Failed to find INSTANCE 'U119'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(32): Failed to find INSTANCE 'U120'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(30): Failed to find INSTANCE 'U121'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(28): Failed to find INSTANCE 'U122'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(26): Failed to find INSTANCE 'U123'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(24): Failed to find INSTANCE 'U124'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(22): Failed to find INSTANCE 'U125'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(20): Failed to find INSTANCE 'U126'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(18): Failed to find INSTANCE 'U127'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(172): Failed to find INSTANCE 'U50'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(170): Failed to find INSTANCE 'U51'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(168): Failed to find INSTANCE 'U52'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(166): Failed to find INSTANCE 'U53'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(164): Failed to find INSTANCE 'U54'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(162): Failed to find INSTANCE 'U55'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(160): Failed to find INSTANCE 'U56'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(158): Failed to find INSTANCE 'U57'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(156): Failed to find INSTANCE 'U58'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(154): Failed to find INSTANCE 'U59'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(23): Failed to find INSTANCE 'U60'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(150): Failed to find INSTANCE 'U61'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(53): Failed to find INSTANCE 'U62'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(146): Failed to find INSTANCE 'U63'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(59): Failed to find INSTANCE 'U64'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(142): Failed to find INSTANCE 'U65'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(65): Failed to find INSTANCE 'U66'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(138): Failed to find INSTANCE 'U67'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(71): Failed to find INSTANCE 'U68'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(134): Failed to find INSTANCE 'U69'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(77): Failed to find INSTANCE 'U70'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(83): Failed to find INSTANCE 'U71'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(35): Failed to find INSTANCE 'U72'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(41): Failed to find INSTANCE 'U73'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(47): Failed to find INSTANCE 'U74'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(89): Failed to find INSTANCE 'U75'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(95): Failed to find INSTANCE 'U76'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(101): Failed to find INSTANCE 'U77'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(107): Failed to find INSTANCE 'U78'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(29): Failed to find INSTANCE 'U79'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(20): Failed to find INSTANCE 'U80'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(103): Failed to find INSTANCE 'U81'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(108): Failed to find INSTANCE 'U82'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(106): Failed to find INSTANCE 'U83'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(97): Failed to find INSTANCE 'U84'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(102): Failed to find INSTANCE 'U85'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(100): Failed to find INSTANCE 'U86'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(91): Failed to find INSTANCE 'U87'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(96): Failed to find INSTANCE 'U88'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(94): Failed to find INSTANCE 'U89'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(49): Failed to find INSTANCE 'U90'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(90): Failed to find INSTANCE 'U91'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(88): Failed to find INSTANCE 'U92'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(79): Failed to find INSTANCE 'U93'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(84): Failed to find INSTANCE 'U94'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(82): Failed to find INSTANCE 'U95'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(73): Failed to find INSTANCE 'U96'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(78): Failed to find INSTANCE 'U97'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(76): Failed to find INSTANCE 'U98'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf(67): Failed to find INSTANCE 'U99'.
+# ** Warning: (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# Loading timing data from /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_mapped.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ns  Iteration: 0  Region: /ripple_carry_adder16_tb  File: /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_tb.v
+add wave sim:/ripple_carry_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, result_o = 00001 
+#                   10 add1_i= 29af, add2_i = 7a1b, result_o = 0a3cb 
+#                   20 add1_i= 1100, add2_i = 1111, result_o = 02212 
+#                   30 add1_i= 8116, add2_i = 1cce, result_o = 09de5 
+#                   35 add1_i= 4482, add2_i = 3bcd, result_o = 08050 
+#                   43 add1_i= 8943, add2_i = ffff, result_o = 18943 
+#                   53 add1_i= abcd, add2_i = 0000, result_o = 0abce 
+#                   63 add1_i= 0000, add2_i = 1234, result_o = 01235 
+#                   73 add1_i= 1111, add2_i = eeaa, result_o = 0ffbc 
+#                   83 add1_i= 5555, add2_i = aaaa, result_o = 10000 
+#                   93 add1_i= 8051, add2_i = 8086, result_o = 100d8 
+#                   98 add1_i= fadc, add2_i = 00dc, result_o = 0fbb9 
+#                  106 add1_i= 4096, add2_i = 2048, result_o = 060df 
+#                  116 add1_i= 1024, add2_i = 8192, result_o = 091b7 
+#                  216 add1_i= 0000, add2_i = 0001, result_o = 00002 
+# ** Note: $finish    : /home/nayakkk/adders/ripple_carry_adder16/msim/postsynth/ripple_carry_adder16_tb.v(82)
+#    Time: 316 ns  Iteration: 0  Instance: /ripple_carry_adder16_tb
