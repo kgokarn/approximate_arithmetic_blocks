@@ -1,0 +1,50 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/nayakkk/adders/ripplecarryadder16/msim/presynth
+vfull_adder
+V=k1M1;8@4Yl2Z09i7lMHQ1
+r1
+!s85 0
+31
+I6A:6_m]dMMPZfGj?iK4lU2
+Z1 d/home/nayakkk/adders/ripplecarryadder16/msim/presynth
+w1595235727
+8/home/nayakkk/adders/ripplecarryadder16/msim/presynth/full_adder.v
+F/home/nayakkk/adders/ripplecarryadder16/msim/presynth/full_adder.v
+L0 21
+Z2 OL;L;6.6d;45
+Z3 !s102 -nocovercells
+Z4 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 5zLOe<K3;X=:@;G9ihZNU2
+vripple_carry_adder16
+V4[z]9lKCMXLN[L1DoCX5H3
+r1
+31
+Ij6F5TCWVWJGb54JY9BSWP3
+R1
+w1596181072
+8/home/nayakkk/adders/ripplecarryadder16/msim/presynth/ripple_carry_adder16.v
+F/home/nayakkk/adders/ripplecarryadder16/msim/presynth/ripple_carry_adder16.v
+L0 21
+R2
+R3
+R4
+!s85 0
+!s100 lf^K]GeeH@WKUO:42>Lb42
+vripple_carry_adder16_tb
+VJTbBoQcQ`le_AAXO50Tgm3
+r1
+31
+IYU08gi32MD0@d9RKmfcVV2
+R1
+w1596186434
+8/home/nayakkk/adders/ripplecarryadder16/msim/presynth/ripple_carry_adder16_tb.v
+F/home/nayakkk/adders/ripplecarryadder16/msim/presynth/ripple_carry_adder16_tb.v
+L0 23
+R2
+R3
+R4
+!s85 0
+!s100 YdHLi<eTNAX9?35;GJ;RZ0

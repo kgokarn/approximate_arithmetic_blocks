@@ -1,0 +1,141 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.14.2.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project cla16
+# Compile of carry_lookahead_adder16_netlist.v was successful.
+# Compile of carry_lookahead_adder16_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -L /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/library -sdftyp /=/home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf -sdfnoerror -novopt simulation.carry_lookahead_adder16_tb
+# vsim -L /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/library -sdftyp /=/home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf -sdfnoerror -novopt simulation.carry_lookahead_adder16_tb 
+# Refreshing /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/simulation.carry_lookahead_adder16_tb
+# Loading simulation.carry_lookahead_adder16_tb
+# Refreshing /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/simulation.carry_lookahead_adder16
+# Loading simulation.carry_lookahead_adder16
+# Loading /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/library.XOR2_X1
+# Loading /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/library.OR2_X1
+# Loading /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/library.NAND2_X1
+# SDF 6.6d Compiler 2010.11 Nov  1 2010
+# Loading instances from /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(202): Failed to find INSTANCE 'U126'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(200): Failed to find INSTANCE 'U127'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(198): Failed to find INSTANCE 'U128'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(196): Failed to find INSTANCE 'U129'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(194): Failed to find INSTANCE 'U130'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(192): Failed to find INSTANCE 'U131'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(190): Failed to find INSTANCE 'U132'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(188): Failed to find INSTANCE 'U133'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(186): Failed to find INSTANCE 'U134'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(184): Failed to find INSTANCE 'U135'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(182): Failed to find INSTANCE 'U136'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(180): Failed to find INSTANCE 'U137'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(178): Failed to find INSTANCE 'U138'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(176): Failed to find INSTANCE 'U139'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(174): Failed to find INSTANCE 'U140'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(172): Failed to find INSTANCE 'U141'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(170): Failed to find INSTANCE 'U142'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(168): Failed to find INSTANCE 'U143'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(166): Failed to find INSTANCE 'U144'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(164): Failed to find INSTANCE 'U145'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(162): Failed to find INSTANCE 'U146'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(160): Failed to find INSTANCE 'U147'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(158): Failed to find INSTANCE 'U148'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(156): Failed to find INSTANCE 'U149'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(154): Failed to find INSTANCE 'U150'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(152): Failed to find INSTANCE 'U151'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(150): Failed to find INSTANCE 'U152'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(148): Failed to find INSTANCE 'U153'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(146): Failed to find INSTANCE 'U154'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(144): Failed to find INSTANCE 'U155'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(20): Failed to find INSTANCE 'U156'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(126): Failed to find INSTANCE 'U157'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(138): Failed to find INSTANCE 'U158'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(136): Failed to find INSTANCE 'U159'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(134): Failed to find INSTANCE 'U160'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(94): Failed to find INSTANCE 'U161'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(130): Failed to find INSTANCE 'U162'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(128): Failed to find INSTANCE 'U163'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(126): Failed to find INSTANCE 'U164'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(110): Failed to find INSTANCE 'U165'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(122): Failed to find INSTANCE 'U166'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(120): Failed to find INSTANCE 'U167'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(118): Failed to find INSTANCE 'U168'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(102): Failed to find INSTANCE 'U169'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(114): Failed to find INSTANCE 'U170'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(112): Failed to find INSTANCE 'U171'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(110): Failed to find INSTANCE 'U172'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(22): Failed to find INSTANCE 'U173'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(106): Failed to find INSTANCE 'U174'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(104): Failed to find INSTANCE 'U175'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(102): Failed to find INSTANCE 'U176'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(86): Failed to find INSTANCE 'U177'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(98): Failed to find INSTANCE 'U178'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(96): Failed to find INSTANCE 'U179'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(94): Failed to find INSTANCE 'U180'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(78): Failed to find INSTANCE 'U181'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(90): Failed to find INSTANCE 'U182'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(88): Failed to find INSTANCE 'U183'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(86): Failed to find INSTANCE 'U184'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(70): Failed to find INSTANCE 'U185'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(82): Failed to find INSTANCE 'U186'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(80): Failed to find INSTANCE 'U187'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(78): Failed to find INSTANCE 'U188'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(62): Failed to find INSTANCE 'U189'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(74): Failed to find INSTANCE 'U190'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(72): Failed to find INSTANCE 'U191'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(70): Failed to find INSTANCE 'U192'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(54): Failed to find INSTANCE 'U193'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(66): Failed to find INSTANCE 'U194'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(64): Failed to find INSTANCE 'U195'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(62): Failed to find INSTANCE 'U196'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(46): Failed to find INSTANCE 'U197'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(58): Failed to find INSTANCE 'U198'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(56): Failed to find INSTANCE 'U199'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(54): Failed to find INSTANCE 'U200'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(38): Failed to find INSTANCE 'U201'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(50): Failed to find INSTANCE 'U202'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(48): Failed to find INSTANCE 'U203'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(46): Failed to find INSTANCE 'U204'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(30): Failed to find INSTANCE 'U205'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(42): Failed to find INSTANCE 'U206'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(40): Failed to find INSTANCE 'U207'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(38): Failed to find INSTANCE 'U208'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(36): Failed to find INSTANCE 'U209'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(34): Failed to find INSTANCE 'U210'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(32): Failed to find INSTANCE 'U211'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(30): Failed to find INSTANCE 'U212'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(28): Failed to find INSTANCE 'U213'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(26): Failed to find INSTANCE 'U214'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(24): Failed to find INSTANCE 'U215'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(22): Failed to find INSTANCE 'U216'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(20): Failed to find INSTANCE 'U217'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf(18): Failed to find INSTANCE 'U218'.
+# ** Warning: (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# Loading timing data from /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_mapped.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ns  Iteration: 0  Region: /carry_lookahead_adder16_tb  File: /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_tb.v
+add wave sim:/carry_lookahead_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, result_o = 00001 
+#                   10 add1_i= 29af, add2_i = 7a1b, result_o = 0a3cb 
+#                   20 add1_i= 1100, add2_i = 1111, result_o = 02212 
+#                   30 add1_i= 8116, add2_i = 1cce, result_o = 09de5 
+#                   35 add1_i= 4482, add2_i = 3bcd, result_o = 08050 
+#                   37 add1_i= 8943, add2_i = ffff, result_o = 18943 
+#                   47 add1_i= abcd, add2_i = 0000, result_o = 0abce 
+#                   57 add1_i= 0000, add2_i = 1234, result_o = 01235 
+#                   67 add1_i= 1111, add2_i = eeaa, result_o = 0ffbc 
+#                   77 add1_i= 5555, add2_i = aaaa, result_o = 10000 
+#                   87 add1_i= 8051, add2_i = 8086, result_o = 100d8 
+#                   92 add1_i= fadc, add2_i = 00dc, result_o = 0fbb9 
+#                   94 add1_i= 4096, add2_i = 2048, result_o = 060df 
+#                  104 add1_i= 1024, add2_i = 8192, result_o = 091b7 
+#                  204 add1_i= 0000, add2_i = 0001, result_o = 00002 
+# ** Note: $finish    : /home/nayakkk/adders/carry_lookahead_adder16/msim/postsynth/carry_lookahead_adder16_tb.v(82)
+#    Time: 304 ns  Iteration: 0  Instance: /carry_lookahead_adder16_tb

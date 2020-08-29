@@ -1,0 +1,1785 @@
+$date
+	Tue Aug  4 10:15:11 2020
+$end
+$version
+	ModelSim Version 6.6d
+$end
+$timescale
+	1ps
+$end
+$scope module error_tolerant_type2_adder16_tb $end
+$var reg 16 ! add1_i [15:0] $end
+$var reg 16 " add2_i [15:0] $end
+$var wire 1 # result_o [16] $end
+$var wire 1 $ result_o [15] $end
+$var wire 1 % result_o [14] $end
+$var wire 1 & result_o [13] $end
+$var wire 1 ' result_o [12] $end
+$var wire 1 ( result_o [11] $end
+$var wire 1 ) result_o [10] $end
+$var wire 1 * result_o [9] $end
+$var wire 1 + result_o [8] $end
+$var wire 1 , result_o [7] $end
+$var wire 1 - result_o [6] $end
+$var wire 1 . result_o [5] $end
+$var wire 1 / result_o [4] $end
+$var wire 1 0 result_o [3] $end
+$var wire 1 1 result_o [2] $end
+$var wire 1 2 result_o [1] $end
+$var wire 1 3 result_o [0] $end
+$scope module eta $end
+$var parameter 32 4 width $end
+$var parameter 32 5 segmentwidth $end
+$var wire 1 6 add1_i [15] $end
+$var wire 1 7 add1_i [14] $end
+$var wire 1 8 add1_i [13] $end
+$var wire 1 9 add1_i [12] $end
+$var wire 1 : add1_i [11] $end
+$var wire 1 ; add1_i [10] $end
+$var wire 1 < add1_i [9] $end
+$var wire 1 = add1_i [8] $end
+$var wire 1 > add1_i [7] $end
+$var wire 1 ? add1_i [6] $end
+$var wire 1 @ add1_i [5] $end
+$var wire 1 A add1_i [4] $end
+$var wire 1 B add1_i [3] $end
+$var wire 1 C add1_i [2] $end
+$var wire 1 D add1_i [1] $end
+$var wire 1 E add1_i [0] $end
+$var wire 1 F add2_i [15] $end
+$var wire 1 G add2_i [14] $end
+$var wire 1 H add2_i [13] $end
+$var wire 1 I add2_i [12] $end
+$var wire 1 J add2_i [11] $end
+$var wire 1 K add2_i [10] $end
+$var wire 1 L add2_i [9] $end
+$var wire 1 M add2_i [8] $end
+$var wire 1 N add2_i [7] $end
+$var wire 1 O add2_i [6] $end
+$var wire 1 P add2_i [5] $end
+$var wire 1 Q add2_i [4] $end
+$var wire 1 R add2_i [3] $end
+$var wire 1 S add2_i [2] $end
+$var wire 1 T add2_i [1] $end
+$var wire 1 U add2_i [0] $end
+$var wire 1 # result_o [16] $end
+$var wire 1 $ result_o [15] $end
+$var wire 1 % result_o [14] $end
+$var wire 1 & result_o [13] $end
+$var wire 1 ' result_o [12] $end
+$var wire 1 ( result_o [11] $end
+$var wire 1 ) result_o [10] $end
+$var wire 1 * result_o [9] $end
+$var wire 1 + result_o [8] $end
+$var wire 1 , result_o [7] $end
+$var wire 1 - result_o [6] $end
+$var wire 1 . result_o [5] $end
+$var wire 1 / result_o [4] $end
+$var wire 1 0 result_o [3] $end
+$var wire 1 1 result_o [2] $end
+$var wire 1 2 result_o [1] $end
+$var wire 1 3 result_o [0] $end
+$var wire 1 V sum_w [15] $end
+$var wire 1 W sum_w [14] $end
+$var wire 1 X sum_w [13] $end
+$var wire 1 Y sum_w [12] $end
+$var wire 1 Z sum_w [11] $end
+$var wire 1 [ sum_w [10] $end
+$var wire 1 \ sum_w [9] $end
+$var wire 1 ] sum_w [8] $end
+$var wire 1 ^ sum_w [7] $end
+$var wire 1 _ sum_w [6] $end
+$var wire 1 ` sum_w [5] $end
+$var wire 1 a sum_w [4] $end
+$var wire 1 b sum_w [3] $end
+$var wire 1 c sum_w [2] $end
+$var wire 1 d sum_w [1] $end
+$var wire 1 e sum_w [0] $end
+$var wire 1 f carry_w [16] $end
+$var wire 1 g carry_w [15] $end
+$var wire 1 h carry_w [14] $end
+$var wire 1 i carry_w [13] $end
+$var wire 1 j carry_w [12] $end
+$var wire 1 k carry_w [11] $end
+$var wire 1 l carry_w [10] $end
+$var wire 1 m carry_w [9] $end
+$var wire 1 n carry_w [8] $end
+$var wire 1 o carry_w [7] $end
+$var wire 1 p carry_w [6] $end
+$var wire 1 q carry_w [5] $end
+$var wire 1 r carry_w [4] $end
+$var wire 1 s carry_w [3] $end
+$var wire 1 t carry_w [2] $end
+$var wire 1 u carry_w [1] $end
+$var wire 1 v carry_w [0] $end
+$scope begin genblk1[12] $end
+$var parameter 32 w i $end
+$scope module cg $end
+$var parameter 32 x width $end
+$var wire 1 6 input1_i [3] $end
+$var wire 1 7 input1_i [2] $end
+$var wire 1 8 input1_i [1] $end
+$var wire 1 9 input1_i [0] $end
+$var wire 1 F input2_i [3] $end
+$var wire 1 G input2_i [2] $end
+$var wire 1 H input2_i [1] $end
+$var wire 1 I input2_i [0] $end
+$var wire 1 f carry_o [3] $end
+$var wire 1 g carry_o [2] $end
+$var wire 1 h carry_o [1] $end
+$var wire 1 i carry_o [0] $end
+$var wire 1 y generate_w [3] $end
+$var wire 1 z generate_w [2] $end
+$var wire 1 { generate_w [1] $end
+$var wire 1 | generate_w [0] $end
+$var wire 1 } propagate_w [3] $end
+$var wire 1 ~ propagate_w [2] $end
+$var wire 1 !! propagate_w [1] $end
+$var wire 1 "! propagate_w [0] $end
+$var wire 1 #! carry_w [4] $end
+$var wire 1 $! carry_w [3] $end
+$var wire 1 %! carry_w [2] $end
+$var wire 1 &! carry_w [1] $end
+$var wire 1 '! carry_w [0] $end
+$scope begin genblk1[3] $end
+$var parameter 32 (! j $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 32 )! j $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 32 *! j $end
+$upscope $end
+$scope begin genblk1[0] $end
+$var parameter 32 +! j $end
+$upscope $end
+$scope unknown genblk1 $end
+$upscope $end
+$upscope $end
+$scope module rca $end
+$var parameter 32 ,! width $end
+$var wire 1 6 add1_i [3] $end
+$var wire 1 7 add1_i [2] $end
+$var wire 1 8 add1_i [1] $end
+$var wire 1 9 add1_i [0] $end
+$var wire 1 F add2_i [3] $end
+$var wire 1 G add2_i [2] $end
+$var wire 1 H add2_i [1] $end
+$var wire 1 I add2_i [0] $end
+$var wire 1 j carry_i $end
+$var wire 1 V result_o [3] $end
+$var wire 1 W result_o [2] $end
+$var wire 1 X result_o [1] $end
+$var wire 1 Y result_o [0] $end
+$var wire 1 -! sum_w [3] $end
+$var wire 1 .! sum_w [2] $end
+$var wire 1 /! sum_w [1] $end
+$var wire 1 0! sum_w [0] $end
+$var wire 1 1! carry_w [4] $end
+$var wire 1 2! carry_w [3] $end
+$var wire 1 3! carry_w [2] $end
+$var wire 1 4! carry_w [1] $end
+$var wire 1 5! carry_w [0] $end
+$scope begin genblk1[3] $end
+$var parameter 32 6! i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 32 7! i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 32 8! i $end
+$upscope $end
+$scope begin genblk1[0] $end
+$var parameter 32 9! i $end
+$upscope $end
+$scope unknown genblk1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 32 :! i $end
+$scope module cg $end
+$var parameter 32 ;! width $end
+$var wire 1 : input1_i [3] $end
+$var wire 1 ; input1_i [2] $end
+$var wire 1 < input1_i [1] $end
+$var wire 1 = input1_i [0] $end
+$var wire 1 J input2_i [3] $end
+$var wire 1 K input2_i [2] $end
+$var wire 1 L input2_i [1] $end
+$var wire 1 M input2_i [0] $end
+$var wire 1 j carry_o [3] $end
+$var wire 1 k carry_o [2] $end
+$var wire 1 l carry_o [1] $end
+$var wire 1 m carry_o [0] $end
+$var wire 1 <! generate_w [3] $end
+$var wire 1 =! generate_w [2] $end
+$var wire 1 >! generate_w [1] $end
+$var wire 1 ?! generate_w [0] $end
+$var wire 1 @! propagate_w [3] $end
+$var wire 1 A! propagate_w [2] $end
+$var wire 1 B! propagate_w [1] $end
+$var wire 1 C! propagate_w [0] $end
+$var wire 1 D! carry_w [4] $end
+$var wire 1 E! carry_w [3] $end
+$var wire 1 F! carry_w [2] $end
+$var wire 1 G! carry_w [1] $end
+$var wire 1 H! carry_w [0] $end
+$scope begin genblk1[3] $end
+$var parameter 32 I! j $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 32 J! j $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 32 K! j $end
+$upscope $end
+$scope begin genblk1[0] $end
+$var parameter 32 L! j $end
+$upscope $end
+$scope unknown genblk1 $end
+$upscope $end
+$upscope $end
+$scope module rca $end
+$var parameter 32 M! width $end
+$var wire 1 : add1_i [3] $end
+$var wire 1 ; add1_i [2] $end
+$var wire 1 < add1_i [1] $end
+$var wire 1 = add1_i [0] $end
+$var wire 1 J add2_i [3] $end
+$var wire 1 K add2_i [2] $end
+$var wire 1 L add2_i [1] $end
+$var wire 1 M add2_i [0] $end
+$var wire 1 n carry_i $end
+$var wire 1 Z result_o [3] $end
+$var wire 1 [ result_o [2] $end
+$var wire 1 \ result_o [1] $end
+$var wire 1 ] result_o [0] $end
+$var wire 1 N! sum_w [3] $end
+$var wire 1 O! sum_w [2] $end
+$var wire 1 P! sum_w [1] $end
+$var wire 1 Q! sum_w [0] $end
+$var wire 1 R! carry_w [4] $end
+$var wire 1 S! carry_w [3] $end
+$var wire 1 T! carry_w [2] $end
+$var wire 1 U! carry_w [1] $end
+$var wire 1 V! carry_w [0] $end
+$scope begin genblk1[3] $end
+$var parameter 32 W! i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 32 X! i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 32 Y! i $end
+$upscope $end
+$scope begin genblk1[0] $end
+$var parameter 32 Z! i $end
+$upscope $end
+$scope unknown genblk1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 32 [! i $end
+$scope module cg $end
+$var parameter 32 \! width $end
+$var wire 1 > input1_i [3] $end
+$var wire 1 ? input1_i [2] $end
+$var wire 1 @ input1_i [1] $end
+$var wire 1 A input1_i [0] $end
+$var wire 1 N input2_i [3] $end
+$var wire 1 O input2_i [2] $end
+$var wire 1 P input2_i [1] $end
+$var wire 1 Q input2_i [0] $end
+$var wire 1 n carry_o [3] $end
+$var wire 1 o carry_o [2] $end
+$var wire 1 p carry_o [1] $end
+$var wire 1 q carry_o [0] $end
+$var wire 1 ]! generate_w [3] $end
+$var wire 1 ^! generate_w [2] $end
+$var wire 1 _! generate_w [1] $end
+$var wire 1 `! generate_w [0] $end
+$var wire 1 a! propagate_w [3] $end
+$var wire 1 b! propagate_w [2] $end
+$var wire 1 c! propagate_w [1] $end
+$var wire 1 d! propagate_w [0] $end
+$var wire 1 e! carry_w [4] $end
+$var wire 1 f! carry_w [3] $end
+$var wire 1 g! carry_w [2] $end
+$var wire 1 h! carry_w [1] $end
+$var wire 1 i! carry_w [0] $end
+$scope begin genblk1[3] $end
+$var parameter 32 j! j $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 32 k! j $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 32 l! j $end
+$upscope $end
+$scope begin genblk1[0] $end
+$var parameter 32 m! j $end
+$upscope $end
+$scope unknown genblk1 $end
+$upscope $end
+$upscope $end
+$scope module rca $end
+$var parameter 32 n! width $end
+$var wire 1 > add1_i [3] $end
+$var wire 1 ? add1_i [2] $end
+$var wire 1 @ add1_i [1] $end
+$var wire 1 A add1_i [0] $end
+$var wire 1 N add2_i [3] $end
+$var wire 1 O add2_i [2] $end
+$var wire 1 P add2_i [1] $end
+$var wire 1 Q add2_i [0] $end
+$var wire 1 r carry_i $end
+$var wire 1 ^ result_o [3] $end
+$var wire 1 _ result_o [2] $end
+$var wire 1 ` result_o [1] $end
+$var wire 1 a result_o [0] $end
+$var wire 1 o! sum_w [3] $end
+$var wire 1 p! sum_w [2] $end
+$var wire 1 q! sum_w [1] $end
+$var wire 1 r! sum_w [0] $end
+$var wire 1 s! carry_w [4] $end
+$var wire 1 t! carry_w [3] $end
+$var wire 1 u! carry_w [2] $end
+$var wire 1 v! carry_w [1] $end
+$var wire 1 w! carry_w [0] $end
+$scope begin genblk1[3] $end
+$var parameter 32 x! i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 32 y! i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 32 z! i $end
+$upscope $end
+$scope begin genblk1[0] $end
+$var parameter 32 {! i $end
+$upscope $end
+$scope unknown genblk1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[0] $end
+$var parameter 32 |! i $end
+$scope module cg $end
+$var parameter 32 }! width $end
+$var wire 1 B input1_i [3] $end
+$var wire 1 C input1_i [2] $end
+$var wire 1 D input1_i [1] $end
+$var wire 1 E input1_i [0] $end
+$var wire 1 R input2_i [3] $end
+$var wire 1 S input2_i [2] $end
+$var wire 1 T input2_i [1] $end
+$var wire 1 U input2_i [0] $end
+$var wire 1 r carry_o [3] $end
+$var wire 1 s carry_o [2] $end
+$var wire 1 t carry_o [1] $end
+$var wire 1 u carry_o [0] $end
+$var wire 1 ~! generate_w [3] $end
+$var wire 1 !" generate_w [2] $end
+$var wire 1 "" generate_w [1] $end
+$var wire 1 #" generate_w [0] $end
+$var wire 1 $" propagate_w [3] $end
+$var wire 1 %" propagate_w [2] $end
+$var wire 1 &" propagate_w [1] $end
+$var wire 1 '" propagate_w [0] $end
+$var wire 1 (" carry_w [4] $end
+$var wire 1 )" carry_w [3] $end
+$var wire 1 *" carry_w [2] $end
+$var wire 1 +" carry_w [1] $end
+$var wire 1 ," carry_w [0] $end
+$scope begin genblk1[3] $end
+$var parameter 32 -" j $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 32 ." j $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 32 /" j $end
+$upscope $end
+$scope begin genblk1[0] $end
+$var parameter 32 0" j $end
+$upscope $end
+$scope unknown genblk1 $end
+$upscope $end
+$upscope $end
+$scope module rca $end
+$var parameter 32 1" width $end
+$var wire 1 B add1_i [3] $end
+$var wire 1 C add1_i [2] $end
+$var wire 1 D add1_i [1] $end
+$var wire 1 E add1_i [0] $end
+$var wire 1 R add2_i [3] $end
+$var wire 1 S add2_i [2] $end
+$var wire 1 T add2_i [1] $end
+$var wire 1 U add2_i [0] $end
+$var wire 1 v carry_i $end
+$var wire 1 b result_o [3] $end
+$var wire 1 c result_o [2] $end
+$var wire 1 d result_o [1] $end
+$var wire 1 e result_o [0] $end
+$var wire 1 2" sum_w [3] $end
+$var wire 1 3" sum_w [2] $end
+$var wire 1 4" sum_w [1] $end
+$var wire 1 5" sum_w [0] $end
+$var wire 1 6" carry_w [4] $end
+$var wire 1 7" carry_w [3] $end
+$var wire 1 8" carry_w [2] $end
+$var wire 1 9" carry_w [1] $end
+$var wire 1 :" carry_w [0] $end
+$scope begin genblk1[3] $end
+$var parameter 32 ;" i $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 32 <" i $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 32 =" i $end
+$upscope $end
+$scope begin genblk1[0] $end
+$var parameter 32 >" i $end
+$upscope $end
+$scope unknown genblk1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope unknown genblk1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10000 4
+b100 5
+b0 |!
+b100 }!
+b100 1"
+b100 [!
+b100 \!
+b100 n!
+b1000 :!
+b100 ;!
+b100 M!
+b1100 w
+b100 x
+b100 ,!
+b0 0"
+b1 /"
+b10 ."
+b11 -"
+b0 >"
+b1 ="
+b10 <"
+b11 ;"
+b0 m!
+b1 l!
+b10 k!
+b11 j!
+b0 {!
+b1 z!
+b10 y!
+b11 x!
+b0 L!
+b1 K!
+b10 J!
+b11 I!
+b0 Z!
+b1 Y!
+b10 X!
+b11 W!
+b0 +!
+b1 *!
+b10 )!
+b11 (!
+b0 9!
+b1 8!
+b10 7!
+b11 6!
+b0 !
+b0 "
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+0#"
+0""
+0!"
+0~!
+0'"
+0&"
+0%"
+0$"
+0,"
+0+"
+0*"
+0)"
+0("
+05"
+04"
+03"
+02"
+0:"
+09"
+08"
+07"
+06"
+0`!
+0_!
+0^!
+0]!
+0d!
+0c!
+0b!
+0a!
+0i!
+0h!
+0g!
+0f!
+0e!
+0r!
+0q!
+0p!
+0o!
+0w!
+0v!
+0u!
+0t!
+0s!
+0?!
+0>!
+0=!
+0<!
+0C!
+0B!
+0A!
+0@!
+0H!
+0G!
+0F!
+0E!
+0D!
+0Q!
+0P!
+0O!
+0N!
+0V!
+0U!
+0T!
+0S!
+0R!
+0|
+0{
+0z
+0y
+0"!
+0!!
+0~
+0}
+0'!
+0&!
+0%!
+0$!
+0#!
+00!
+0/!
+0.!
+0-!
+05!
+04!
+03!
+02!
+01!
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+$end
+#10000
+b10100110101111 !
+b111101000011011 "
+1U
+1T
+1R
+1Q
+1L
+1J
+1I
+1H
+1G
+1E
+1D
+1C
+1B
+1@
+1>
+1=
+1:
+18
+1{
+13!
+1<!
+1R!
+1C!
+1Q!
+1a!
+1o!
+1c!
+1q!
+1~!
+16"
+1%"
+13"
+1""
+18"
+1#"
+19"
+1~
+1!!
+1"!
+10!
+1@!
+1B!
+1P!
+1d!
+1r!
+1$"
+1&"
+14"
+1'"
+1+"
+03"
+17"
+1*"
+1("
+1D!
+12!
+1%!
+1$!
+1-!
+1)"
+12"
+1h
+1g
+1j
+1u
+1t
+1s
+1r
+1Y
+1V
+1d
+1b
+1a
+1`
+1^
+1]
+1\
+1w!
+15!
+00!
+14!
+0r!
+1v!
+0q!
+1u!
+1/!
+1p!
+0a
+0`
+1_
+0Y
+1X
+12
+10
+1/
+1.
+1,
+1+
+1*
+1'
+1$
+0/
+0.
+1-
+0'
+1&
+#20000
+b1000100000000 !
+b1000100010001 "
+0T
+0R
+1M
+0L
+0J
+0H
+0G
+0E
+0D
+0C
+0B
+0@
+0>
+0:
+19
+08
+0!!
+03!
+1|
+10!
+0@!
+0a!
+0o!
+0c!
+1q!
+0u!
+0$"
+06"
+0%"
+13"
+07"
+0&"
+08"
+0#"
+15"
+09"
+0~
+02!
+0{
+0<!
+0R!
+0B!
+0P!
+1?!
+0Q!
+1U!
+0~!
+02"
+0""
+04"
+0*"
+0("
+1P!
+1G!
+0D!
+0%!
+0-!
+0$!
+0+"
+03"
+0)"
+0p!
+1&!
+1i
+0h
+0g
+1m
+0j
+0u
+0t
+0s
+0r
+0]
+1e
+0d
+0b
+1`
+0_
+0^
+1Y
+0V
+0w!
+05!
+00!
+1r!
+0v!
+0q!
+1a
+0`
+0Y
+13
+02
+00
+1.
+0-
+0,
+0+
+1'
+0$
+1/
+0.
+0'
+#30000
+b1000000100010110 !
+b1110011001110 "
+0U
+1T
+1S
+1R
+0Q
+1O
+1N
+0M
+1K
+1J
+1D
+1C
+1A
+09
+16
+1}
+1-!
+0|
+10!
+04!
+1!"
+17"
+1""
+18"
+1@!
+1N!
+1A!
+1O!
+0?!
+1Q!
+0U!
+1a!
+1o!
+1b!
+1p!
+1$"
+1%"
+13"
+1&"
+0'"
+05"
+0P!
+0G!
+1*"
+16"
+1)"
+0/!
+0&!
+1("
+0i
+1t
+1s
+1r
+0m
+0e
+1c
+1_
+1^
+1]
+0\
+1[
+1Z
+1Y
+0X
+1V
+1w!
+0r!
+1v!
+1q!
+0a
+1`
+03
+11
+1-
+1,
+1+
+0*
+1)
+1(
+1'
+0&
+1$
+0/
+1.
+#35000
+b100010010000010 !
+b11101111001101 "
+1U
+0T
+1M
+1L
+0K
+1H
+0C
+0A
+1>
+0=
+1;
+17
+06
+0}
+0-!
+1~
+1.!
+1]!
+0o!
+1s!
+0d!
+1r!
+0v!
+0!"
+03"
+1!!
+1/!
+1B!
+1P!
+0""
+14"
+08"
+1'"
+15"
+13"
+07"
+0*"
+0q!
+1e!
+0)"
+12"
+06"
+0("
+1n
+0t
+0s
+0r
+1\
+1e
+1d
+1b
+1a
+0`
+0^
+1X
+1W
+0V
+0w!
+1V!
+0Q!
+1U!
+0r!
+0P!
+1T!
+0O!
+1S!
+0N!
+1R!
+0a
+0]
+0\
+0[
+0Z
+13
+12
+10
+1/
+0.
+0,
+1*
+1&
+1%
+0$
+0/
+0+
+0*
+0)
+0(
+#40000
+b1000100101000011 !
+b1111111111111111 "
+1T
+1Q
+1P
+1K
+1G
+1F
+1E
+1?
+0>
+1=
+0;
+1:
+07
+16
+1y
+11!
+1<!
+1N!
+1?!
+1Q!
+0]!
+1o!
+0s!
+1^!
+0p!
+1t!
+1#"
+05"
+19"
+1}
+1c!
+1q!
+1d!
+1r!
+1""
+18"
+03"
+17"
+1*"
+1+"
+0o!
+1s!
+1f!
+1G!
+1D!
+1#!
+1F!
+1)"
+02"
+16"
+1("
+1E!
+1f
+1m
+1l
+1k
+1j
+1o
+1u
+1t
+1s
+1r
+0e
+0c
+0b
+1a
+1`
+0_
+1]
+1Z
+1w!
+15!
+00!
+14!
+0r!
+1v!
+0q!
+1u!
+0/!
+13!
+0.!
+12!
+1p!
+1-!
+0a
+0`
+1_
+0Y
+0X
+0W
+1V
+03
+01
+00
+1/
+1.
+0-
+1+
+1(
+1#
+0/
+0.
+1-
+0'
+0&
+0%
+1$
+#50000
+b1010101111001101 !
+b0 "
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0D
+1C
+1B
+1>
+1<
+18
+0&"
+08"
+0y
+0-!
+0~
+1.!
+02!
+0"!
+10!
+04!
+0<!
+0N!
+0A!
+1O!
+0S!
+0?!
+0Q!
+0^!
+0p!
+0c!
+1q!
+0u!
+0d!
+1r!
+0v!
+13"
+07"
+0""
+0#"
+15"
+09"
+04"
+0+"
+0*"
+12"
+06"
+0q!
+1p!
+0t!
+0f!
+0G!
+1N!
+0R!
+0E!
+1/!
+03!
+1-!
+01!
+0#!
+0.!
+0D!
+0F!
+0e!
+1o!
+0s!
+0)"
+0("
+0f
+0m
+0l
+0k
+0j
+0o
+0n
+0u
+0t
+0s
+0r
+1e
+0d
+1c
+1b
+1a
+1^
+0]
+1[
+1Y
+1X
+0w!
+0V!
+05!
+00!
+1Q!
+0U!
+0r!
+1P!
+0T!
+0O!
+0a
+1]
+1\
+0[
+0Y
+13
+02
+11
+10
+1/
+1,
+0+
+1)
+1'
+1&
+0#
+0/
+1+
+1*
+0)
+0'
+#60000
+b0 !
+b1001000110100 "
+1S
+1Q
+1P
+1L
+1I
+0E
+0C
+0B
+0?
+0>
+0=
+0<
+0:
+08
+06
+0}
+0-!
+0!!
+0/!
+0@!
+0N!
+0C!
+0Q!
+0a!
+0o!
+0b!
+0p!
+0$"
+02"
+0'"
+05"
+1"!
+10!
+1c!
+1q!
+1d!
+1r!
+0e
+0b
+1a
+1`
+0_
+0^
+0]
+0Z
+1Y
+0X
+0V
+03
+00
+1/
+1.
+0-
+0,
+0+
+0(
+1'
+0&
+0$
+#70000
+b1000100010001 !
+b1110111010101010 "
+1T
+0S
+1R
+0Q
+1N
+1K
+1J
+0I
+1H
+1G
+1F
+1E
+1A
+1=
+19
+1C!
+1Q!
+1'"
+15"
+1}
+1-!
+1~
+1.!
+1!!
+1/!
+1@!
+1N!
+1A!
+1O!
+1a!
+1o!
+1$"
+12"
+0%"
+03"
+1&"
+14"
+1^
+1X
+1W
+1V
+1e
+1d
+0c
+1b
+1]
+1[
+1Z
+13
+12
+01
+10
+1,
+1+
+1)
+1(
+1&
+1%
+1$
+#80000
+b101010101010101 !
+b1010101010101010 "
+0K
+0G
+1C
+1?
+1;
+17
+1b!
+1p!
+1%"
+13"
+1c
+1_
+11
+1-
+#90000
+b1000000001010001 !
+b1000000010000110 "
+1S
+0R
+0P
+0L
+0J
+0H
+0C
+0=
+0;
+09
+07
+16
+1y
+0-!
+11!
+0~
+0.!
+0"!
+00!
+0A!
+0O!
+0C!
+0Q!
+0!!
+0/!
+0@!
+0N!
+0B!
+0P!
+0c!
+0q!
+0$"
+02"
+1#!
+1f
+0b
+0`
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+00
+0.
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+1#
+#95000
+b1111101011011100 !
+b11011100 "
+0T
+1R
+1Q
+1O
+0F
+0E
+1C
+1B
+1>
+1<
+1:
+19
+18
+17
+1~
+1.!
+1!!
+1/!
+1"!
+10!
+1@!
+1N!
+1B!
+1P!
+1]!
+0o!
+1s!
+1~!
+16"
+1!"
+03"
+17"
+0'"
+05"
+0y
+1-!
+01!
+1^!
+0p!
+1t!
+1`!
+0r!
+1v!
+1$"
+12"
+0&"
+04"
+1q!
+1h!
+1o!
+1f!
+0#!
+1)"
+1("
+1e!
+1s
+1r
+0f
+1q
+1o
+1n
+0e
+0d
+0c
+1b
+0a
+1`
+0_
+1\
+1Z
+1Y
+1X
+1W
+1V
+1V!
+1w!
+1r!
+1Q!
+1]
+1a
+03
+02
+01
+10
+0/
+1.
+0-
+1*
+1(
+1'
+1&
+1%
+1$
+0#
+1/
+1+
+#100000
+b100000010010110 !
+b10000001001000 "
+0S
+0Q
+0N
+1H
+1D
+0B
+0?
+0<
+0:
+09
+08
+06
+0}
+0-!
+0"!
+00!
+0@!
+0N!
+0B!
+0P!
+0^!
+1p!
+0t!
+0~!
+02"
+1&"
+14"
+0]!
+0`!
+0r!
+0!"
+13"
+07"
+12"
+06"
+0)"
+0h!
+0s!
+0f!
+0e!
+0("
+0q
+0o
+0n
+0s
+0r
+1d
+1c
+0a
+1_
+0\
+0Z
+0Y
+0V
+0w!
+0V!
+0Q!
+1r!
+0v!
+0q!
+1a
+0`
+0]
+12
+11
+0/
+1-
+0*
+0(
+0'
+0$
+1/
+0.
+0+
+#110000
+b1000000100100 !
+b1000000110010010 "
+1T
+0R
+1Q
+0O
+1N
+1M
+0H
+1F
+0D
+0A
+1@
+0>
+19
+07
+0~
+0.!
+1"!
+10!
+1c!
+1q!
+1}
+1-!
+0!!
+0/!
+1C!
+1Q!
+0b!
+0p!
+0$"
+02"
+0b
+1]
+1`
+0_
+1Y
+0X
+0W
+1V
+00
+1.
+0-
+1+
+1'
+0&
+0%
+1$
+#210000
+b0 !
+b1 "
+1U
+0T
+0Q
+0N
+0M
+0F
+0C
+0@
+09
+0"!
+00!
+0c!
+0q!
+0%"
+03"
+0}
+0-!
+0C!
+0Q!
+0a!
+0o!
+0d!
+0r!
+0&"
+04"
+1'"
+15"
+0]
+1e
+0d
+0c
+0a
+0`
+0^
+0Y
+0V
+13
+02
+01
+0/
+0.
+0,
+0+
+0'
+0$

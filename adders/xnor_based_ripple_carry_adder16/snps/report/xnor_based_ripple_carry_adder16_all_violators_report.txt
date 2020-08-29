@@ -1,0 +1,20 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : xnor_based_ripple_carry_adder16
+Version: N-2017.09-SP3
+Date   : Wed Aug 19 10:47:12 2020
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   xnor_based_ripple_carry_adder16     0.00    85.92        -85.92  (VIOLATED)
+
+
+1

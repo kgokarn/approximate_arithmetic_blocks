@@ -1,0 +1,92 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : carry_lookahead_adder16
+Version: N-2017.09-SP3
+Date   : Mon Aug 17 17:30:24 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: add1_i[0] (input port clocked by clk)
+  Endpoint: result_o[16]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  carry_lookahead_adder16
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.03       0.03
+  input external delay                     0.20       0.23 f
+  add1_i[0] (in)                           0.00       0.23 f
+  U156/ZN (OR2_X1)                         0.07       0.30 f
+  U160/ZN (OR2_X1)                         0.06       0.36 f
+  U159/ZN (NAND2_X1)                       0.03       0.39 r
+  U157/ZN (NAND2_X1)                       0.04       0.43 f
+  U164/ZN (OR2_X1)                         0.06       0.49 f
+  U163/ZN (NAND2_X1)                       0.03       0.52 r
+  U161/ZN (NAND2_X1)                       0.04       0.56 f
+  U180/ZN (OR2_X1)                         0.06       0.62 f
+  U179/ZN (NAND2_X1)                       0.03       0.65 r
+  U177/ZN (NAND2_X1)                       0.04       0.69 f
+  U184/ZN (OR2_X1)                         0.06       0.74 f
+  U183/ZN (NAND2_X1)                       0.03       0.77 r
+  U181/ZN (NAND2_X1)                       0.04       0.81 f
+  U188/ZN (OR2_X1)                         0.06       0.87 f
+  U187/ZN (NAND2_X1)                       0.03       0.90 r
+  U185/ZN (NAND2_X1)                       0.04       0.94 f
+  U192/ZN (OR2_X1)                         0.06       1.00 f
+  U191/ZN (NAND2_X1)                       0.03       1.03 r
+  U189/ZN (NAND2_X1)                       0.04       1.07 f
+  U196/ZN (OR2_X1)                         0.06       1.13 f
+  U195/ZN (NAND2_X1)                       0.03       1.16 r
+  U193/ZN (NAND2_X1)                       0.04       1.20 f
+  U200/ZN (OR2_X1)                         0.06       1.25 f
+  U199/ZN (NAND2_X1)                       0.03       1.29 r
+  U197/ZN (NAND2_X1)                       0.04       1.32 f
+  U204/ZN (OR2_X1)                         0.06       1.38 f
+  U203/ZN (NAND2_X1)                       0.03       1.41 r
+  U201/ZN (NAND2_X1)                       0.04       1.45 f
+  U208/ZN (OR2_X1)                         0.06       1.51 f
+  U207/ZN (NAND2_X1)                       0.03       1.54 r
+  U205/ZN (NAND2_X1)                       0.04       1.58 f
+  U212/ZN (OR2_X1)                         0.06       1.64 f
+  U211/ZN (NAND2_X1)                       0.03       1.67 r
+  U209/ZN (NAND2_X1)                       0.04       1.71 f
+  U168/ZN (OR2_X1)                         0.06       1.77 f
+  U167/ZN (NAND2_X1)                       0.03       1.80 r
+  U165/ZN (NAND2_X1)                       0.04       1.84 f
+  U172/ZN (OR2_X1)                         0.06       1.89 f
+  U171/ZN (NAND2_X1)                       0.03       1.93 r
+  U169/ZN (NAND2_X1)                       0.04       1.96 f
+  U176/ZN (OR2_X1)                         0.06       2.02 f
+  U175/ZN (NAND2_X1)                       0.03       2.05 r
+  U173/ZN (NAND2_X1)                       0.04       2.09 f
+  U216/ZN (OR2_X1)                         0.06       2.15 f
+  U215/ZN (NAND2_X1)                       0.03       2.18 r
+  U213/ZN (NAND2_X1)                       0.03       2.21 f
+  result_o[16] (out)                       0.00       2.21 f
+  data arrival time                                   2.21
+
+  clock clk (rise edge)                    4.00       4.00
+  clock network delay (ideal)              0.03       4.03
+  output external delay                   -0.17       3.87
+  data required time                                  3.87
+  -----------------------------------------------------------
+  data required time                                  3.87
+  data arrival time                                  -2.21
+  -----------------------------------------------------------
+  slack (MET)                                         1.66
+
+
+1

@@ -1,0 +1,15 @@
+/home/nayakkk/adders/lower_part_or_ripple_carry_adder16/msim/postsynth/lower_part_or_ripple_carry_adder16_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/lower_part_or_ripple_carry_adder16/msim/postsynth/lower_part_or_ripple_carry_adder16_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module lower_part_or_ripple_carry_adder16_tb
+
+Top level modules:
+	lower_part_or_ripple_carry_adder16_tb
+
+} {} {}} /home/nayakkk/adders/lower_part_or_ripple_carry_adder16/msim/postsynth/lower_part_or_ripple_carry_adder16_netlist.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/lower_part_or_ripple_carry_adder16/msim/postsynth/lower_part_or_ripple_carry_adder16_netlist.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module lower_part_or_ripple_carry_adder16
+
+Top level modules:
+	lower_part_or_ripple_carry_adder16
+
+} {} {}}

@@ -1,0 +1,48 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.14.2.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project lower_part_or_ripple_carry_adder16
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project xnor_based_ripple_carry_adder16
+# Compile of full_adder.v was successful.
+# Compile of xnor_based_ripple_carry_adder16.v was successful.
+# Compile of xnor_based_ripple_carry_adder16_tb.v was successful.
+# Compile of xnor_full_adder.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -novopt simulation.xnor_based_ripple_carry_adder16_tb
+# vsim -novopt simulation.xnor_based_ripple_carry_adder16_tb 
+# Refreshing /home/nayakkk/adders/xnor_based_ripple_carry_adder16/msim/presynth/simulation.xnor_based_ripple_carry_adder16_tb
+# Loading simulation.xnor_based_ripple_carry_adder16_tb
+# Refreshing /home/nayakkk/adders/xnor_based_ripple_carry_adder16/msim/presynth/simulation.xnor_based_ripple_carry_adder16
+# Loading simulation.xnor_based_ripple_carry_adder16
+# Refreshing /home/nayakkk/adders/xnor_based_ripple_carry_adder16/msim/presynth/simulation.xnor_full_adder
+# Loading simulation.xnor_full_adder
+# Refreshing /home/nayakkk/adders/xnor_based_ripple_carry_adder16/msim/presynth/simulation.full_adder
+# Loading simulation.full_adder
+add wave sim:/xnor_based_ripple_carry_adder16_tb/*
+run
+#                    0 add1_i= 0000, add2_i = 0000, result_o = 00000 
+#                   10 add1_i= 29af, add2_i = 7a1b, result_o = 0a3ca 
+#                   20 add1_i= 1100, add2_i = 1111, result_o = 02210 
+#                   30 add1_i= 8116, add2_i = 1cce, result_o = 09de4 
+#                   35 add1_i= 4482, add2_i = 3bcd, result_o = 08040 
+#                   43 add1_i= 8943, add2_i = ffff, result_o = 18942 
+#                   53 add1_i= abcd, add2_i = 0000, result_o = 0abc0 
+#                   63 add1_i= 0000, add2_i = 1234, result_o = 01230 
+#                   73 add1_i= 1111, add2_i = eeaa, result_o = 0ffb0 
+#                   83 add1_i= 5555, add2_i = aaaa, result_o = 0fff0 
+#                   93 add1_i= 8051, add2_i = 8086, result_o = 100d0 
+#                   98 add1_i= fadc, add2_i = 00dc, result_o = 0fbb8 
+run
+#                  106 add1_i= 4096, add2_i = 2048, result_o = 060d0 
+#                  116 add1_i= 1024, add2_i = 8192, result_o = 091b0 
+#                  216 add1_i= 0000, add2_i = 0001, result_o = 00000 
+# ** Note: $finish    : /home/nayakkk/adders/xnor_based_ripple_carry_adder16/msim/presynth/xnor_based_ripple_carry_adder16_tb.v(82)
+#    Time: 316 ns  Iteration: 0  Instance: /xnor_based_ripple_carry_adder16_tb
