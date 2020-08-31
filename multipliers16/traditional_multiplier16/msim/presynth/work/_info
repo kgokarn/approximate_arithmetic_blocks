@@ -1,0 +1,95 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/nayakkk/multipliers/traditional_multiplier/msim/presynth
+vand_op
+VH3OGjODJOcTjeNidgD_d12
+r1
+31
+IOLAnDUE:UWoa9Pj>gRCfD2
+Z1 d/home/nayakkk/multipliers/traditional_multiplier/msim/presynth
+w1598473952
+8/home/nayakkk/multipliers/traditional_multiplier/msim/presynth/and_op.v
+F/home/nayakkk/multipliers/traditional_multiplier/msim/presynth/and_op.v
+L0 1
+Z2 OL;L;6.6d;45
+Z3 !s102 -nocovercells
+Z4 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s85 0
+!s100 KJko0XeCL]zIC5T5>m1_i3
+vcarry_lookahead_adder
+VgjYH;IIZ7F?f=2:98ahS=3
+r1
+31
+IaXKnif>76A;79RdgS8^Qe3
+R1
+w1598512921
+8/home/nayakkk/multipliers/traditional_multiplier/msim/presynth/carry_lookahead_adder.v
+F/home/nayakkk/multipliers/traditional_multiplier/msim/presynth/carry_lookahead_adder.v
+L0 21
+R2
+R3
+R4
+!s85 0
+!s100 ]GTlGJo?bko@?OLBoJ47>0
+vcarry_save_adder
+V:9UKDfJQ]4j^CBliGV_Oo3
+r1
+31
+INPWFFYoFn@Qb<0g5]`9j_2
+R1
+w1598515455
+8/home/nayakkk/multipliers/traditional_multiplier/msim/presynth/carry_save_adder.v
+F/home/nayakkk/multipliers/traditional_multiplier/msim/presynth/carry_save_adder.v
+L0 1
+R2
+R3
+R4
+!s85 0
+!s100 0f5J:USz;:V>[ZE@z1zog0
+vfull_adder
+V=k1M1;8@4Yl2Z09i7lMHQ1
+r1
+!s85 0
+31
+II=iHe>Ude``^LBeTibeih1
+R1
+w1595235727
+8/home/nayakkk/multipliers/traditional_multiplier/msim/presynth/full_adder.v
+F/home/nayakkk/multipliers/traditional_multiplier/msim/presynth/full_adder.v
+L0 21
+R2
+R3
+R4
+!s100 5zLOe<K3;X=:@;G9ihZNU2
+vtraditional_multiplier16
+VzkV4L]XjEV[GTJHWcU`[31
+r1
+31
+Id6h<9OadkF:HS77U4D1Mf0
+R1
+w1598529498
+8/home/nayakkk/multipliers/traditional_multiplier/msim/presynth/traditional_multiplier16.v
+F/home/nayakkk/multipliers/traditional_multiplier/msim/presynth/traditional_multiplier16.v
+L0 1
+R2
+R3
+R4
+!s85 0
+!s100 ??z4``[e3>JkFVA2[amAH0
+vtraditional_multiplier16_tb
+VjIWZCaB48hAmT44AY9U@X1
+r1
+31
+IgWh:QNgGzEL:Ka:FlaR361
+R1
+w1598530019
+8/home/nayakkk/multipliers/traditional_multiplier/msim/presynth/traditional_multiplier16_tb.v
+F/home/nayakkk/multipliers/traditional_multiplier/msim/presynth/traditional_multiplier16_tb.v
+L0 24
+R2
+R3
+R4
+!s85 0
+!s100 R0Hb]123HTZXP^dJKa6>F1

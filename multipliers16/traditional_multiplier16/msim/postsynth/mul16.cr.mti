@@ -1,0 +1,15 @@
+/home/nayakkk/multipliers/traditional_multiplier/msim/postsynth/traditional_multiplier16_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/traditional_multiplier/msim/postsynth/traditional_multiplier16_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module traditional_multiplier16_tb
+
+Top level modules:
+	traditional_multiplier16_tb
+
+} {} {}} /home/nayakkk/multipliers/traditional_multiplier/msim/postsynth/traditional_multiplier16_netlist.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/traditional_multiplier/msim/postsynth/traditional_multiplier16_netlist.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module traditional_multiplier16
+
+Top level modules:
+	traditional_multiplier16
+
+} {} {}}

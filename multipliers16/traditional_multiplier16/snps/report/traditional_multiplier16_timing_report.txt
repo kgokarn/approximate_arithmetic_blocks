@@ -1,0 +1,122 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : traditional_multiplier16
+Version: N-2017.09-SP3
+Date   : Thu Aug 27 21:52:28 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: operand2_i[3]
+              (input port clocked by clk)
+  Endpoint: product_o[30]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  traditional_multiplier16
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.03       0.03
+  input external delay                     0.20       0.23 r
+  operand2_i[3] (in)                       0.00       0.23 r
+  U2355/ZN (INV_X2)                        0.06       0.29 f
+  U2036/ZN (NOR2_X1)                       0.08       0.37 r
+  U1606/Z (XOR2_X1)                        0.09       0.47 r
+  U2567/ZN (NAND3_X1)                      0.04       0.51 f
+  U2565/ZN (NAND2_X1)                      0.04       0.55 r
+  U1603/Z (XOR2_X1)                        0.09       0.65 r
+  U1602/Z (XOR2_X1)                        0.10       0.74 r
+  U1601/Z (XOR2_X1)                        0.10       0.84 r
+  U2874/ZN (XNOR2_X1)                      0.07       0.92 r
+  U1648/ZN (NOR2_X1)                       0.04       0.95 f
+  U1650/ZN (NOR2_X1)                       0.07       1.03 r
+  U1570/Z (XOR2_X1)                        0.10       1.12 r
+  U2838/ZN (XNOR2_X1)                      0.06       1.18 f
+  U1569/Z (XOR2_X1)                        0.09       1.27 f
+  U2918/ZN (NAND2_X1)                      0.04       1.31 r
+  U2916/ZN (NAND2_X1)                      0.04       1.35 f
+  U2893/ZN (NAND2_X1)                      0.04       1.38 r
+  U2835/ZN (NAND2_X1)                      0.03       1.42 f
+  U2829/ZN (NAND2_X1)                      0.03       1.45 r
+  U2915/ZN (NAND2_X1)                      0.03       1.48 f
+  U2914/ZN (NAND2_X1)                      0.03       1.52 r
+  U2892/ZN (NAND2_X1)                      0.04       1.55 f
+  U2872/ZN (OR2_X1)                        0.06       1.61 f
+  U2854/ZN (NAND2_X1)                      0.03       1.64 r
+  U2853/ZN (NAND2_X1)                      0.04       1.68 f
+  U2844/ZN (OR2_X1)                        0.06       1.74 f
+  U2852/ZN (NAND2_X1)                      0.03       1.77 r
+  U2851/ZN (NAND2_X1)                      0.04       1.81 f
+  U2842/ZN (OR2_X1)                        0.06       1.87 f
+  U2909/ZN (NAND2_X1)                      0.03       1.90 r
+  U2908/ZN (NAND2_X1)                      0.04       1.94 f
+  U2870/ZN (OR2_X1)                        0.06       2.00 f
+  U2913/ZN (NAND2_X1)                      0.03       2.03 r
+  U2912/ZN (NAND2_X1)                      0.04       2.07 f
+  U2891/ZN (OR2_X1)                        0.06       2.13 f
+  U2899/ZN (NAND2_X1)                      0.03       2.16 r
+  U2898/ZN (NAND2_X1)                      0.04       2.19 f
+  U2868/ZN (OR2_X1)                        0.06       2.25 f
+  U1636/ZN (NAND2_X1)                      0.03       2.28 r
+  U1635/ZN (AND2_X1)                       0.06       2.34 r
+  U2866/ZN (NAND2_X1)                      0.03       2.37 f
+  U2907/ZN (NAND2_X1)                      0.03       2.40 r
+  U2906/ZN (NAND2_X1)                      0.04       2.44 f
+  U2889/ZN (OR2_X1)                        0.06       2.50 f
+  U2887/ZN (NAND2_X1)                      0.03       2.52 r
+  U1634/ZN (AND2_X1)                       0.06       2.58 r
+  U2864/ZN (NAND2_X1)                      0.03       2.61 f
+  U2903/ZN (NAND2_X1)                      0.03       2.64 r
+  U2902/ZN (NAND2_X1)                      0.04       2.68 f
+  U2886/ZN (OR2_X1)                        0.06       2.74 f
+  U1641/ZN (NAND2_X1)                      0.03       2.77 r
+  U1640/ZN (AND2_X1)                       0.06       2.82 r
+  U2884/ZN (NAND2_X1)                      0.03       2.86 f
+  U2905/ZN (NAND2_X1)                      0.03       2.89 r
+  U2904/ZN (NAND2_X1)                      0.04       2.93 f
+  U2862/ZN (OR2_X1)                        0.06       2.99 f
+  U2897/ZN (NAND2_X1)                      0.03       3.01 r
+  U1633/ZN (AND2_X1)                       0.06       3.07 r
+  U2820/ZN (NAND2_X1)                      0.03       3.10 f
+  U2901/ZN (NAND2_X1)                      0.03       3.13 r
+  U2900/ZN (NAND2_X1)                      0.04       3.17 f
+  U2882/ZN (OR2_X1)                        0.06       3.23 f
+  U2860/ZN (NAND2_X1)                      0.03       3.26 r
+  U1709/ZN (AND2_X1)                       0.06       3.31 r
+  U2880/ZN (NAND2_X1)                      0.03       3.35 f
+  U2834/ZN (NAND2_X1)                      0.03       3.38 r
+  U2911/ZN (NAND2_X1)                      0.03       3.41 f
+  U2910/ZN (NAND2_X1)                      0.03       3.45 r
+  U2859/ZN (NAND2_X1)                      0.03       3.48 f
+  U2850/ZN (NAND2_X1)                      0.03       3.51 r
+  U2849/ZN (NAND2_X1)                      0.03       3.54 f
+  U2840/ZN (NAND2_X1)                      0.03       3.58 r
+  U2920/ZN (NAND2_X1)                      0.03       3.61 f
+  U2919/ZN (NOR2_X1)                       0.05       3.66 r
+  U2875/ZN (XNOR2_X1)                      0.06       3.72 r
+  product_o[30] (out)                      0.00       3.73 r
+  data arrival time                                   3.73
+
+  clock clk (rise edge)                    4.00       4.00
+  clock network delay (ideal)              0.03       4.03
+  output external delay                   -0.17       3.87
+  data required time                                  3.87
+  -----------------------------------------------------------
+  data required time                                  3.87
+  data arrival time                                  -3.73
+  -----------------------------------------------------------
+  slack (MET)                                         0.14
+
+
+1

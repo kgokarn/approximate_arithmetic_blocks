@@ -1,0 +1,98 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.31.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project traditional_multiplier16
+# Compile of traditional_multiplier16.v was successful.
+# Compile of traditional_multiplier16_tb.v was successful.
+# Compile of carry_save_adder.v was successful.
+# Compile of carry_lookahead_adder.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of and_op.v was successful.
+# 6 compiles, 0 failed with no errors. 
+vsim -novopt work.traditional_multiplier16_tb
+# vsim -novopt work.traditional_multiplier16_tb 
+# Refreshing /home/nayakkk/multipliers/traditional_multiplier/msim/presynth/work.traditional_multiplier16_tb
+# Loading work.traditional_multiplier16_tb
+# Refreshing /home/nayakkk/multipliers/traditional_multiplier/msim/presynth/work.traditional_multiplier16
+# Loading work.traditional_multiplier16
+# Refreshing /home/nayakkk/multipliers/traditional_multiplier/msim/presynth/work.and_op
+# Loading work.and_op
+# Refreshing /home/nayakkk/multipliers/traditional_multiplier/msim/presynth/work.carry_save_adder
+# Loading work.carry_save_adder
+# Refreshing /home/nayakkk/multipliers/traditional_multiplier/msim/presynth/work.carry_lookahead_adder
+# Loading work.carry_lookahead_adder
+# Refreshing /home/nayakkk/multipliers/traditional_multiplier/msim/presynth/work.full_adder
+# Loading work.full_adder
+add wave sim:/traditional_multiplier16_tb/*
+vsim -novopt work.traditional_multiplier16_tb
+# vsim -novopt work.traditional_multiplier16_tb 
+# Loading work.traditional_multiplier16_tb
+# Loading work.traditional_multiplier16
+# Loading work.and_op
+# Loading work.carry_save_adder
+# Loading work.carry_lookahead_adder
+# Loading work.full_adder
+add wave sim:/traditional_multiplier16_tb/*
+run
+#                    0 operand1_i= 0000, operand2_i = 0000, result_o = 00000000 
+#                   10 operand1_i= 29af, operand2_i = 7a1b, result_o = 13e1cb75 
+#                   20 operand1_i= 1100, operand2_i = 1111, result_o = 01222100 
+#                   30 operand1_i= 8116, operand2_i = 1cce, result_o = 0e8647b4 
+#                   50 operand1_i= 4482, operand2_i = 3bcd, result_o = 1000d21a 
+#                   70 operand1_i= 8943, operand2_i = ffff, result_o = 894276bd 
+#                   80 operand1_i= abcd, operand2_i = 0000, result_o = 00000000 
+#                   90 operand1_i= 0000, operand2_i = 1234, result_o = 00000000 
+#                  100 operand1_i= 1111, operand2_i = 2000, result_o = 02222000 
+#                  110 operand1_i= 5555, operand2_i = f21b, result_o = 50b359f7 
+#                  120 operand1_i= 8051, operand2_i = 8086, result_o = 406baa66 
+#                  125 operand1_i= fadc, operand2_i = 00dc, result_o = 00d79510 
+#                  127 operand1_i= 4096, operand2_i = 2048, result_o = 0824ea30 
+#                  137 operand1_i= 1024, operand2_i = 8192, result_o = 082b5888 
+# Compile of traditional_multiplier16.v was successful.
+# Compile of traditional_multiplier16_tb.v was successful.
+# Compile of carry_save_adder.v was successful.
+# Compile of carry_lookahead_adder.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of and_op.v was successful.
+# 6 compiles, 0 failed with no errors. 
+vsim -novopt work.traditional_multiplier16_tb
+# vsim -novopt work.traditional_multiplier16_tb 
+# Refreshing /home/nayakkk/multipliers/traditional_multiplier/msim/presynth/work.traditional_multiplier16_tb
+# Loading work.traditional_multiplier16_tb
+# Refreshing /home/nayakkk/multipliers/traditional_multiplier/msim/presynth/work.traditional_multiplier16
+# Loading work.traditional_multiplier16
+# Refreshing /home/nayakkk/multipliers/traditional_multiplier/msim/presynth/work.and_op
+# Loading work.and_op
+# Refreshing /home/nayakkk/multipliers/traditional_multiplier/msim/presynth/work.carry_save_adder
+# Loading work.carry_save_adder
+# Refreshing /home/nayakkk/multipliers/traditional_multiplier/msim/presynth/work.carry_lookahead_adder
+# Loading work.carry_lookahead_adder
+# Refreshing /home/nayakkk/multipliers/traditional_multiplier/msim/presynth/work.full_adder
+# Loading work.full_adder
+add wave sim:/traditional_multiplier16_tb/*
+run
+#                    0 operand1_i= 0000, operand2_i = 0000, result_o = 00000000 
+#                   10 operand1_i= 29af, operand2_i = 7a1b, result_o = 13e1cb75 
+#                   20 operand1_i= 1100, operand2_i = 1111, result_o = 01222100 
+#                   30 operand1_i= 8116, operand2_i = 1cce, result_o = 0e8647b4 
+#                   50 operand1_i= 4482, operand2_i = 3bcd, result_o = 1000d21a 
+#                   70 operand1_i= 8943, operand2_i = ffff, result_o = 894276bd 
+#                   80 operand1_i= abcd, operand2_i = 0000, result_o = 00000000 
+#                   90 operand1_i= 0000, operand2_i = 1234, result_o = 00000000 
+#                  100 operand1_i= 1111, operand2_i = 2000, result_o = 02222000 
+#                  110 operand1_i= 5555, operand2_i = aaaa, result_o = 38e31c72 
+#                  120 operand1_i= 8051, operand2_i = 8086, result_o = 406baa66 
+#                  125 operand1_i= fadc, operand2_i = 00dc, result_o = 00d79510 
+#                  135 operand1_i= 4096, operand2_i = 2048, result_o = 0824ea30 
+#                  145 operand1_i= 1024, operand2_i = 8192, result_o = 082b5888 
+run
+#                  245 operand1_i= 0000, operand2_i = 0001, result_o = 00000000 
+# ** Note: $finish    : /home/nayakkk/multipliers/traditional_multiplier/msim/presynth/traditional_multiplier16_tb.v(83)
+#    Time: 345 ns  Iteration: 0  Instance: /traditional_multiplier16_tb

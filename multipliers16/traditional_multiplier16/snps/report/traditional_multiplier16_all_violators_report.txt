@@ -1,0 +1,20 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : traditional_multiplier16
+Version: N-2017.09-SP3
+Date   : Thu Aug 27 21:52:08 2020
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   traditional_multiplier16     0.00        1710.91       -1710.91  (VIOLATED)
+
+
+1

@@ -1,0 +1,35 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/multipliers/traditional_multiplier/msim/presynth
+vtraditional_multiplier16
+VzkV4L]XjEV[GTJHWcU`[31
+r1
+!s85 0
+31
+I<UCB[33TKf9=a[m7bo>LL2
+Z0 d/home/nayakkk/multipliers/traditional_multiplier/msim/postsynth
+w1598557968
+8/home/nayakkk/multipliers/traditional_multiplier/msim/postsynth/traditional_multiplier16_netlist.v
+F/home/nayakkk/multipliers/traditional_multiplier/msim/postsynth/traditional_multiplier16_netlist.v
+L0 8
+Z1 OL;L;6.6d;45
+Z2 !s102 -nocovercells
+Z3 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 OZRAa]a0O17>olM34L8k?2
+vtraditional_multiplier16_tb
+VjIWZCaB48hAmT44AY9U@X1
+r1
+31
+I@I7F9:JZO7ek9iB0z;R[N0
+Z4 d/home/nayakkk/multipliers/traditional_multiplier/msim/postsynth
+w1598558750
+8/home/nayakkk/multipliers/traditional_multiplier/msim/postsynth/traditional_multiplier16_tb.v
+F/home/nayakkk/multipliers/traditional_multiplier/msim/postsynth/traditional_multiplier16_tb.v
+L0 24
+R1
+R2
+R3
+!s85 0
+!s100 WU_O;T>Ng`Ibe[_16?=I>0
