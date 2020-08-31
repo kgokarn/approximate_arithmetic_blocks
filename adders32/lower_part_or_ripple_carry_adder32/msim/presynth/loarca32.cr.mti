@@ -1,0 +1,29 @@
+/home/nayakkk/adders/adders32/lower_part_or_ripple_carry_adder32/msim/presynth/lower_part_or_ripple_carry_adder32.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/adders32/lower_part_or_ripple_carry_adder32/msim/presynth/lower_part_or_ripple_carry_adder32.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module lower_part_or_ripple_carry_adder32
+
+Top level modules:
+	lower_part_or_ripple_carry_adder32
+
+} {} {}} /home/nayakkk/adders/adders32/lower_part_or_ripple_carry_adder32/msim/presynth/full_adder.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/adders32/lower_part_or_ripple_carry_adder32/msim/presynth/full_adder.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} /home/nayakkk/adders/adders32/lower_part_or_ripple_carry_adder32/msim/presynth/ripple_carry_adder.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/adders32/lower_part_or_ripple_carry_adder32/msim/presynth/ripple_carry_adder.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module ripple_carry_adder
+
+Top level modules:
+	ripple_carry_adder
+
+} {} {}} /home/nayakkk/adders/adders32/lower_part_or_ripple_carry_adder32/msim/presynth/lower_part_or_ripple_carry_adder32_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/adders32/lower_part_or_ripple_carry_adder32/msim/presynth/lower_part_or_ripple_carry_adder32_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module lower_part_or_ripple_carry_adder32_tb
+
+Top level modules:
+	lower_part_or_ripple_carry_adder32_tb
+
+} {} {}}

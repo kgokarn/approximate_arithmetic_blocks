@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/postsynth
+vfull_adder
+V=k1M1;8@4Yl2Z09i7lMHQ1
+r1
+!s85 0
+31
+I6A:6_m]dMMPZfGj?iK4lU2
+Z0 d/home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/presynth
+w1595235727
+8/home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/presynth/full_adder.v
+F/home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/presynth/full_adder.v
+L0 21
+Z1 OL;L;6.6d;45
+Z2 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z3 !s102 -nocovercells
+!s100 5zLOe<K3;X=:@;G9ihZNU2
+vxnor_based_ripple_carry_adder32
+Vz;g8H3o23eR6D_ET?PFok0
+r1
+31
+I7_lF1Y>3W6zKE;i2mh7[U3
+Z4 d/home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/presynth
+w1598821682
+8/home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/presynth/xnor_based_ripple_carry_adder32.v
+F/home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/presynth/xnor_based_ripple_carry_adder32.v
+L0 21
+R1
+R3
+R2
+!s85 0
+!s100 [1dVm]P5jah268?SYdR613
+vxnor_based_ripple_carry_adder32_tb
+VMcD720R:7AZ`jNIOFhe8?1
+r1
+31
+IJ:NK`_];JjN7PMTAQ@__I2
+R4
+w1598821735
+8/home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/presynth/xnor_based_ripple_carry_adder32_tb.v
+F/home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/presynth/xnor_based_ripple_carry_adder32_tb.v
+L0 23
+R1
+R3
+R2
+!s85 0
+!s100 om>ZZX^UKAZ<2^c26C?Z;0
+vxnor_full_adder
+VbXeCh7b:6TARCg2aK3_;12
+r1
+31
+IHR5`Gd@=d4eUkRQ?G:NM>3
+R4
+w1596715521
+8/home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/presynth/xnor_full_adder.v
+F/home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/presynth/xnor_full_adder.v
+L0 21
+R1
+R3
+R2
+!s85 0
+!s100 kMTD^^Wi]T6C[;?`Q`QbL2

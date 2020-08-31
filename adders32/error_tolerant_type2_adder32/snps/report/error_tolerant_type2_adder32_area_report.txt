@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : error_tolerant_type2_adder32
+Version: N-2017.09-SP3
+Date   : Sat Aug 29 15:18:56 2020
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/snps/design/NangateOpenCellLibrary_typical_ccs.db)
+
+Number of ports:                           97
+Number of nets:                           295
+Number of cells:                          231
+Number of combinational cells:            231
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          1
+Number of references:                       5
+
+Combinational area:                242.059995
+Buf/Inv area:                        0.532000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   242.059995
+Total area:                 undefined
+1

@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/postsynth
+vequal_segmentation_adder32
+VoMZZa_8IAXcdd<N4`o=Uo0
+r1
+31
+IQ0abPli6aWUdG>VJOYCDd1
+Z0 d/home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth
+w1598814613
+8/home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/equal_segmentation_adder32.v
+F/home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/equal_segmentation_adder32.v
+L0 21
+Z1 OL;L;6.6d;45
+Z2 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z3 !s102 -nocovercells
+!s85 0
+!s100 kHIdG`EBnBm771e1Y8Z`91
+vequal_segmentation_adder32_tb
+VK8@I:6ikNIMKnD`HM4h863
+r1
+31
+I2kR_1]T>iH;SLo1ICA=Bb0
+Z4 d/home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth
+w1598814427
+8/home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/equal_segmentation_adder32_tb.v
+F/home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/equal_segmentation_adder32_tb.v
+L0 23
+R1
+R3
+R2
+!s85 0
+!s100 Lo:EkXU=2Mkz7j:o0>;`P0
+vfull_adder
+V=k1M1;8@4Yl2Z09i7lMHQ1
+r1
+!s85 0
+31
+I6A:6_m]dMMPZfGj?iK4lU2
+R4
+w1595235727
+8/home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/full_adder.v
+F/home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/full_adder.v
+L0 21
+R1
+R3
+R2
+!s100 5zLOe<K3;X=:@;G9ihZNU2
+vhalf_adder
+VLch_QUT4Ui98@FFL]Iaf]3
+r1
+31
+Iz8Bnzoh_X7D0=KQTT28QO2
+R4
+w1596096941
+8/home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/half_adder.v
+F/home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/half_adder.v
+L0 21
+R1
+R3
+R2
+!s85 0
+!s100 3cDZ8GWDA0ClohPXD3<3J3

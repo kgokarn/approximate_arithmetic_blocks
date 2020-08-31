@@ -1,0 +1,283 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.31.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project rca32gate
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project eta32gate
+# Compile of error_tolerant_type2_adder32_netlist.v was successful.
+# Compile of error_tolerant_type2_adder32_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -L /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/library -sdftyp /=/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf -sdfnoerror -novopt simulation.error_tolerant_type2_adder32_tb
+# vsim -L /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/library -sdftyp /=/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf -sdfnoerror -novopt simulation.error_tolerant_type2_adder32_tb 
+# Refreshing /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/simulation.error_tolerant_type2_adder32_tb
+# Loading simulation.error_tolerant_type2_adder32_tb
+# Refreshing /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/simulation.error_tolerant_type2_adder32
+# Loading simulation.error_tolerant_type2_adder32
+# Loading /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/library.XOR2_X1
+# Loading /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/library.INV_X1
+# Loading /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/library.NAND2_X1
+# Loading /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/library.OR2_X1
+# Loading /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/library.NAND3_X1
+# SDF 6.6d Compiler 2010.11 Nov  1 2010
+# Loading instances from /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(484): Failed to find INSTANCE 'U171'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(482): Failed to find INSTANCE 'U172'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(480): Failed to find INSTANCE 'U173'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(478): Failed to find INSTANCE 'U174'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(476): Failed to find INSTANCE 'U175'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(353): Failed to find INSTANCE 'U176'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(472): Failed to find INSTANCE 'U177'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(297): Failed to find INSTANCE 'U178'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(468): Failed to find INSTANCE 'U179'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(333): Failed to find INSTANCE 'U180'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(464): Failed to find INSTANCE 'U181'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(462): Failed to find INSTANCE 'U182'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(460): Failed to find INSTANCE 'U183'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(458): Failed to find INSTANCE 'U184'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(456): Failed to find INSTANCE 'U185'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(343): Failed to find INSTANCE 'U186'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(452): Failed to find INSTANCE 'U187'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(49): Failed to find INSTANCE 'U188'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(448): Failed to find INSTANCE 'U189'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(267): Failed to find INSTANCE 'U190'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(444): Failed to find INSTANCE 'U191'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(303): Failed to find INSTANCE 'U192'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(440): Failed to find INSTANCE 'U193'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(438): Failed to find INSTANCE 'U194'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(436): Failed to find INSTANCE 'U195'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(345): Failed to find INSTANCE 'U196'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(432): Failed to find INSTANCE 'U197'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(273): Failed to find INSTANCE 'U198'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(428): Failed to find INSTANCE 'U199'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(309): Failed to find INSTANCE 'U200'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(424): Failed to find INSTANCE 'U201'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(422): Failed to find INSTANCE 'U202'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(420): Failed to find INSTANCE 'U203'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(347): Failed to find INSTANCE 'U204'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(416): Failed to find INSTANCE 'U205'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(279): Failed to find INSTANCE 'U206'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(412): Failed to find INSTANCE 'U207'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(315): Failed to find INSTANCE 'U208'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(408): Failed to find INSTANCE 'U209'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(43): Failed to find INSTANCE 'U210'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(404): Failed to find INSTANCE 'U211'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(402): Failed to find INSTANCE 'U212'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(400): Failed to find INSTANCE 'U213'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(349): Failed to find INSTANCE 'U214'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(396): Failed to find INSTANCE 'U215'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(285): Failed to find INSTANCE 'U216'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(392): Failed to find INSTANCE 'U217'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(321): Failed to find INSTANCE 'U218'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(388): Failed to find INSTANCE 'U219'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(386): Failed to find INSTANCE 'U220'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(384): Failed to find INSTANCE 'U221'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(351): Failed to find INSTANCE 'U222'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(380): Failed to find INSTANCE 'U223'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(291): Failed to find INSTANCE 'U224'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(376): Failed to find INSTANCE 'U225'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(327): Failed to find INSTANCE 'U226'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(372): Failed to find INSTANCE 'U227'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(370): Failed to find INSTANCE 'U228'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(368): Failed to find INSTANCE 'U229'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(341): Failed to find INSTANCE 'U230'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(256): Failed to find INSTANCE 'U231'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(262): Failed to find INSTANCE 'U232'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(58): Failed to find INSTANCE 'U233'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(359): Failed to find INSTANCE 'U234'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(357): Failed to find INSTANCE 'U235'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(355): Failed to find INSTANCE 'U236'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(88): Failed to find INSTANCE 'U237'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(84): Failed to find INSTANCE 'U238'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(80): Failed to find INSTANCE 'U239'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(76): Failed to find INSTANCE 'U240'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(72): Failed to find INSTANCE 'U241'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(68): Failed to find INSTANCE 'U242'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(341): Failed to find INSTANCE 'U243'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(339): Failed to find INSTANCE 'U244'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(300): Failed to find INSTANCE 'U245'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(335): Failed to find INSTANCE 'U246'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(333): Failed to find INSTANCE 'U247'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(294): Failed to find INSTANCE 'U248'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(329): Failed to find INSTANCE 'U249'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(327): Failed to find INSTANCE 'U250'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(288): Failed to find INSTANCE 'U251'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(323): Failed to find INSTANCE 'U252'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(321): Failed to find INSTANCE 'U253'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(282): Failed to find INSTANCE 'U254'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(317): Failed to find INSTANCE 'U255'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(315): Failed to find INSTANCE 'U256'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(276): Failed to find INSTANCE 'U257'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(311): Failed to find INSTANCE 'U258'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(309): Failed to find INSTANCE 'U259'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(270): Failed to find INSTANCE 'U260'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(305): Failed to find INSTANCE 'U261'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(303): Failed to find INSTANCE 'U262'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(86): Failed to find INSTANCE 'U263'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(299): Failed to find INSTANCE 'U264'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(297): Failed to find INSTANCE 'U265'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(82): Failed to find INSTANCE 'U266'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(293): Failed to find INSTANCE 'U267'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(291): Failed to find INSTANCE 'U268'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(78): Failed to find INSTANCE 'U269'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(287): Failed to find INSTANCE 'U270'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(285): Failed to find INSTANCE 'U271'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(74): Failed to find INSTANCE 'U272'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(281): Failed to find INSTANCE 'U273'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(279): Failed to find INSTANCE 'U274'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(70): Failed to find INSTANCE 'U275'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(275): Failed to find INSTANCE 'U276'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(273): Failed to find INSTANCE 'U277'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(66): Failed to find INSTANCE 'U278'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(269): Failed to find INSTANCE 'U279'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(267): Failed to find INSTANCE 'U280'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(258): Failed to find INSTANCE 'U281'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(263): Failed to find INSTANCE 'U282'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(261): Failed to find INSTANCE 'U283'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(259): Failed to find INSTANCE 'U284'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(257): Failed to find INSTANCE 'U285'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(255): Failed to find INSTANCE 'U286'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(253): Failed to find INSTANCE 'U287'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(251): Failed to find INSTANCE 'U288'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(249): Failed to find INSTANCE 'U289'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(247): Failed to find INSTANCE 'U290'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(245): Failed to find INSTANCE 'U291'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(243): Failed to find INSTANCE 'U292'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(241): Failed to find INSTANCE 'U293'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(239): Failed to find INSTANCE 'U294'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(237): Failed to find INSTANCE 'U295'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(235): Failed to find INSTANCE 'U296'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(233): Failed to find INSTANCE 'U297'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(231): Failed to find INSTANCE 'U298'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(229): Failed to find INSTANCE 'U299'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(227): Failed to find INSTANCE 'U300'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(225): Failed to find INSTANCE 'U301'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(223): Failed to find INSTANCE 'U302'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(221): Failed to find INSTANCE 'U303'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(219): Failed to find INSTANCE 'U304'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(217): Failed to find INSTANCE 'U305'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(215): Failed to find INSTANCE 'U306'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(213): Failed to find INSTANCE 'U307'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(211): Failed to find INSTANCE 'U308'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(209): Failed to find INSTANCE 'U309'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(207): Failed to find INSTANCE 'U310'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(137): Failed to find INSTANCE 'U311'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(203): Failed to find INSTANCE 'U312'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(200): Failed to find INSTANCE 'U313'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(198): Failed to find INSTANCE 'U314'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(129): Failed to find INSTANCE 'U315'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(194): Failed to find INSTANCE 'U316'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(191): Failed to find INSTANCE 'U317'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(189): Failed to find INSTANCE 'U318'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(121): Failed to find INSTANCE 'U319'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(185): Failed to find INSTANCE 'U320'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(182): Failed to find INSTANCE 'U321'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(180): Failed to find INSTANCE 'U322'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(113): Failed to find INSTANCE 'U323'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(176): Failed to find INSTANCE 'U324'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(173): Failed to find INSTANCE 'U325'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(171): Failed to find INSTANCE 'U326'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(105): Failed to find INSTANCE 'U327'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(167): Failed to find INSTANCE 'U328'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(164): Failed to find INSTANCE 'U329'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(162): Failed to find INSTANCE 'U330'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(97): Failed to find INSTANCE 'U331'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(158): Failed to find INSTANCE 'U332'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(155): Failed to find INSTANCE 'U333'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(153): Failed to find INSTANCE 'U334'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(89): Failed to find INSTANCE 'U335'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(149): Failed to find INSTANCE 'U336'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(147): Failed to find INSTANCE 'U337'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(145): Failed to find INSTANCE 'U338'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(143): Failed to find INSTANCE 'U339'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(141): Failed to find INSTANCE 'U340'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(139): Failed to find INSTANCE 'U341'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(137): Failed to find INSTANCE 'U342'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(135): Failed to find INSTANCE 'U343'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(133): Failed to find INSTANCE 'U344'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(131): Failed to find INSTANCE 'U345'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(129): Failed to find INSTANCE 'U346'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(127): Failed to find INSTANCE 'U347'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(125): Failed to find INSTANCE 'U348'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(123): Failed to find INSTANCE 'U349'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(121): Failed to find INSTANCE 'U350'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(119): Failed to find INSTANCE 'U351'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(117): Failed to find INSTANCE 'U352'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(115): Failed to find INSTANCE 'U353'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(113): Failed to find INSTANCE 'U354'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(111): Failed to find INSTANCE 'U355'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(109): Failed to find INSTANCE 'U356'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(107): Failed to find INSTANCE 'U357'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(105): Failed to find INSTANCE 'U358'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(103): Failed to find INSTANCE 'U359'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(101): Failed to find INSTANCE 'U360'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(99): Failed to find INSTANCE 'U361'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(97): Failed to find INSTANCE 'U362'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(95): Failed to find INSTANCE 'U363'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(93): Failed to find INSTANCE 'U364'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(91): Failed to find INSTANCE 'U365'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(89): Failed to find INSTANCE 'U366'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(87): Failed to find INSTANCE 'U367'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(85): Failed to find INSTANCE 'U368'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(83): Failed to find INSTANCE 'U369'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(81): Failed to find INSTANCE 'U370'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(79): Failed to find INSTANCE 'U371'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(77): Failed to find INSTANCE 'U372'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(75): Failed to find INSTANCE 'U373'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(73): Failed to find INSTANCE 'U374'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(71): Failed to find INSTANCE 'U375'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(69): Failed to find INSTANCE 'U376'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(67): Failed to find INSTANCE 'U377'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(65): Failed to find INSTANCE 'U378'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(63): Failed to find INSTANCE 'U379'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(61): Failed to find INSTANCE 'U380'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(59): Failed to find INSTANCE 'U381'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(57): Failed to find INSTANCE 'U382'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(46): Failed to find INSTANCE 'U383'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(53): Failed to find INSTANCE 'U384'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(51): Failed to find INSTANCE 'U385'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(49): Failed to find INSTANCE 'U386'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(47): Failed to find INSTANCE 'U387'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(45): Failed to find INSTANCE 'U388'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(43): Failed to find INSTANCE 'U389'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(26): Failed to find INSTANCE 'U390'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(39): Failed to find INSTANCE 'U391'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(36): Failed to find INSTANCE 'U392'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(34): Failed to find INSTANCE 'U393'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(18): Failed to find INSTANCE 'U394'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(30): Failed to find INSTANCE 'U395'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(28): Failed to find INSTANCE 'U396'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(26): Failed to find INSTANCE 'U397'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(24): Failed to find INSTANCE 'U398'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(22): Failed to find INSTANCE 'U399'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(20): Failed to find INSTANCE 'U400'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf(18): Failed to find INSTANCE 'U401'.
+# ** Warning: (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# Loading timing data from /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_mapped.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ns  Iteration: 0  Region: /error_tolerant_type2_adder32_tb  File: /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_tb.v
+add wave sim:/error_tolerant_type2_adder32_tb/*
+run
+#                    0 add1_i= 00000000, add2_i = 00000000, result_o = 000000001 
+#                   10 add1_i= 29af2430, add2_i = 7a1b9abc, result_o = 0a3cabeed 
+#                   20 add1_i= 11003456, add2_i = 11112323, result_o = 02211577a 
+#                   30 add1_i= 81160873, add2_i = 1cce0178, result_o = 09de409ec 
+#                   35 add1_i= 20202012, add2_i = deadbeef, result_o = 0fecdde02 
+#                   43 add1_i= 8943deaf, add2_i = daadbaad, result_o = 163f1995d 
+#                   53 add1_i= abcd1234, add2_i = 00000000, result_o = 0abcd1235 
+#                   63 add1_i= 00000000, add2_i = 12345678, result_o = 012345679 
+#                   73 add1_i= 11114477, add2_i = eeaa0000, result_o = 0ffbb4478 
+#                   83 add1_i= 55555555, add2_i = aaaaaaaa, result_o = 0fffffff0 
+#                   93 add1_i= 80519860, add2_i = 8086ba3e, result_o = 100d8529f 
+#                   98 add1_i= fadc0720, add2_i = 00dc0810, result_o = 0fbb80f31 
+#                  106 add1_i= 40962048, add2_i = 20484096, result_o = 060de60df 
+#                  116 add1_i= 10242048, add2_i = 81924096, result_o = 091b660df 
+#                  216 add1_i= 00000001, add2_i = deafbeef, result_o = 0deafbef1 
+# ** Note: $finish    : /home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/postsynth/error_tolerant_type2_adder32_tb.v(82)
+#    Time: 316 ns  Iteration: 0  Instance: /error_tolerant_type2_adder32_tb

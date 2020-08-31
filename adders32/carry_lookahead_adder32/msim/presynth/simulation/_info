@@ -1,0 +1,50 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/postsynth
+vcarry_lookahead_adder32
+Vo6mjS_k[?`IXUMS=:[5aX2
+r1
+31
+IozRQD=NLbB2CkYoEbUaX:1
+Z0 d/home/nayakkk/adders/adders32/carry_lookahead_adder32/msim/presynth
+w1598809486
+8/home/nayakkk/adders/adders32/carry_lookahead_adder32/msim/presynth/carry_lookahead_adder32.v
+F/home/nayakkk/adders/adders32/carry_lookahead_adder32/msim/presynth/carry_lookahead_adder32.v
+L0 21
+Z1 OL;L;6.6d;45
+Z2 !s102 -nocovercells
+Z3 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s85 0
+!s100 Tfjd`><dDbH4K0Khc4[?[3
+vcarry_lookahead_adder32_tb
+VRQjHL4_KjK5;DhXSk;8k?1
+r1
+31
+I;?anY?lWA[YXkzg4O7RdQ1
+Z4 d/home/nayakkk/adders/adders32/carry_lookahead_adder32/msim/presynth
+w1598809146
+8/home/nayakkk/adders/adders32/carry_lookahead_adder32/msim/presynth/carry_lookahead_adder32_tb.v
+F/home/nayakkk/adders/adders32/carry_lookahead_adder32/msim/presynth/carry_lookahead_adder32_tb.v
+L0 23
+R1
+R2
+R3
+!s85 0
+!s100 1bgV?FdVWHJ?CV8Rh=b3b1
+vfull_adder
+V=k1M1;8@4Yl2Z09i7lMHQ1
+r1
+!s85 0
+31
+I6A:6_m]dMMPZfGj?iK4lU2
+R4
+w1595235727
+8/home/nayakkk/adders/adders32/carry_lookahead_adder32/msim/presynth/full_adder.v
+F/home/nayakkk/adders/adders32/carry_lookahead_adder32/msim/presynth/full_adder.v
+L0 21
+R1
+R2
+R3
+!s100 5zLOe<K3;X=:@;G9ihZNU2

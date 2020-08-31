@@ -1,0 +1,20 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : almost_correct_adder32
+Version: N-2017.09-SP3
+Date   : Sat Aug 29 20:43:45 2020
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   almost_correct_adder32       0.00         304.04        -304.04  (VIOLATED)
+
+
+1

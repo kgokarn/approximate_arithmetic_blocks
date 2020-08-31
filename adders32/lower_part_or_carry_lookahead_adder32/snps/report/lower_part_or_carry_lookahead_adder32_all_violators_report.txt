@@ -1,0 +1,20 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : lower_part_or_carry_lookahead_adder32
+Version: N-2017.09-SP3
+Date   : Sat Aug 29 21:20:37 2020
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   lower_part_or_carry_lookahead_adder32     0.00   169.97  -169.97 (VIOLATED)
+
+
+1

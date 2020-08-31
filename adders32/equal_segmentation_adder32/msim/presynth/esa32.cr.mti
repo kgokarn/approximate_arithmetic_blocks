@@ -1,0 +1,29 @@
+/home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/half_adder.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/half_adder.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} /home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/full_adder.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/full_adder.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} /home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/equal_segmentation_adder32_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/equal_segmentation_adder32_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module equal_segmentation_adder32_tb
+
+Top level modules:
+	equal_segmentation_adder32_tb
+
+} {} {}} /home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/equal_segmentation_adder32.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/adders32/equal_segmentation_adder32/msim/presynth/equal_segmentation_adder32.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module equal_segmentation_adder32
+
+Top level modules:
+	equal_segmentation_adder32
+
+} {} {}}

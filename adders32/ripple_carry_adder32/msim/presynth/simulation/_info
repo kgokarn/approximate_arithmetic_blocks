@@ -1,0 +1,50 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/multipliers/traditional_multiplier/msim/postsynth
+vfull_adder
+V=k1M1;8@4Yl2Z09i7lMHQ1
+r1
+!s85 0
+31
+I6A:6_m]dMMPZfGj?iK4lU2
+Z0 d/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/presynth
+w1595235727
+8/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/presynth/full_adder.v
+F/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/presynth/full_adder.v
+L0 21
+Z1 OL;L;6.6d;45
+Z2 !s102 -nocovercells
+Z3 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 5zLOe<K3;X=:@;G9ihZNU2
+vripple_carry_adder32
+V8m0f=ee]PNQPo8=00;BSM2
+r1
+31
+IYYGCTQ8036Y92J7i7iODz2
+Z4 d/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/presynth
+w1598804555
+8/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/presynth/ripple_carry_adder32.v
+F/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/presynth/ripple_carry_adder32.v
+L0 21
+R1
+R2
+R3
+!s85 0
+!s100 6M]YMb^znKA_V2[I_@XQE2
+vripple_carry_adder32_tb
+V<z0Ki`N>;al:<440TVS@V2
+r1
+31
+IQNFHQF7oQ[4`TcU24=1RZ3
+R4
+w1598705068
+8/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/presynth/ripple_carry_adder32_tb.v
+F/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/presynth/ripple_carry_adder32_tb.v
+L0 23
+R1
+R2
+R3
+!s85 0
+!s100 GQR5W:@d<MZ@9h[<hSZ;72

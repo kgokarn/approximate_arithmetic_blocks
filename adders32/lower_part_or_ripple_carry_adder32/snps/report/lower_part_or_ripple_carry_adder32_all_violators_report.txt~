@@ -1,0 +1,20 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : lower_part_or_ripple_carry_adder16
+Version: N-2017.09-SP3
+Date   : Sat Aug 29 20:58:27 2020
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   lower_part_or_ripple_carry_adder16     0.00   155.08    -155.08  (VIOLATED)
+
+
+1

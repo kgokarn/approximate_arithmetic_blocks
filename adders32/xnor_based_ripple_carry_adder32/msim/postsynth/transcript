@@ -1,0 +1,279 @@
+# //  ModelSim SE-64 6.6d Nov  1 2010 Linux 2.6.32-754.31.1.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project rca32gate
+# reading /var/autofs/misc/cad/mentor/modelsim-6.6d/modeltech/linux_x86_64/../modelsim.ini
+# Loading project xrca32gate
+# Compile of xnor_based_ripple_carry_adder32_netlist.v was successful.
+# Compile of xnor_based_ripple_carry_adder32_tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -L /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library -sdftyp /=/home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf -sdfnoerror -novopt simulation.xnor_based_ripple_carry_adder32_tb
+# vsim -L /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library -sdftyp /=/home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf -sdfnoerror -novopt simulation.xnor_based_ripple_carry_adder32_tb 
+# Refreshing /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/simulation.xnor_based_ripple_carry_adder32_tb
+# Loading simulation.xnor_based_ripple_carry_adder32_tb
+# Refreshing /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/simulation.xnor_based_ripple_carry_adder32
+# Loading simulation.xnor_based_ripple_carry_adder32
+# Loading /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library.XOR2_X1
+# Loading /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library.XNOR2_X1
+# Loading /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library.INV_X1
+# Refreshing /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library.OR3_X1
+# Loading /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library.OR3_X1
+# Loading /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library.NAND2_X1
+# Loading /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library.NAND3_X1
+# Loading /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library.NAND4_X1
+# Loading /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library.AND3_X1
+# Loading /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library.AND2_X1
+# Loading /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library.OR2_X1
+# Loading /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library.NOR2_X1
+# Loading /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/library.NOR3_X1
+# SDF 6.6d Compiler 2010.11 Nov  1 2010
+# Loading instances from /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(436): Failed to find INSTANCE 'U138'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(195): Failed to find INSTANCE 'U139'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(432): Failed to find INSTANCE 'U144'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(430): Failed to find INSTANCE 'U146'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(428): Failed to find INSTANCE 'U149'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(426): Failed to find INSTANCE 'U151'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(424): Failed to find INSTANCE 'U153'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(422): Failed to find INSTANCE 'U163'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(420): Failed to find INSTANCE 'U165'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(418): Failed to find INSTANCE 'U167'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(416): Failed to find INSTANCE 'U169'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(414): Failed to find INSTANCE 'U171'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(412): Failed to find INSTANCE 'U175'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(208): Failed to find INSTANCE 'U177'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(268): Failed to find INSTANCE 'U179'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(52): Failed to find INSTANCE 'U180'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(226): Failed to find INSTANCE 'U181'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(370): Failed to find INSTANCE 'U182'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(400): Failed to find INSTANCE 'U183'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(360): Failed to find INSTANCE 'U184'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(192): Failed to find INSTANCE 'U185'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(335): Failed to find INSTANCE 'U186'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(394): Failed to find INSTANCE 'U187'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(351): Failed to find INSTANCE 'U188'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(334): Failed to find INSTANCE 'U189'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(113): Failed to find INSTANCE 'U190'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(343): Failed to find INSTANCE 'U191'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(91): Failed to find INSTANCE 'U192'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(160): Failed to find INSTANCE 'U193'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(373): Failed to find INSTANCE 'U194'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(371): Failed to find INSTANCE 'U195'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(369): Failed to find INSTANCE 'U196'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(367): Failed to find INSTANCE 'U197'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(365): Failed to find INSTANCE 'U198'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(363): Failed to find INSTANCE 'U199'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(361): Failed to find INSTANCE 'U200'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(359): Failed to find INSTANCE 'U201'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(357): Failed to find INSTANCE 'U202'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(329): Failed to find INSTANCE 'U203'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(331): Failed to find INSTANCE 'U204'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(325): Failed to find INSTANCE 'U205'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(352): Failed to find INSTANCE 'U206'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(352): Failed to find INSTANCE 'U207'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(80): Failed to find INSTANCE 'U208'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(155): Failed to find INSTANCE 'U209'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(322): Failed to find INSTANCE 'U210'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(321): Failed to find INSTANCE 'U211'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(166): Failed to find INSTANCE 'U212'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(340): Failed to find INSTANCE 'U213'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(153): Failed to find INSTANCE 'U214'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(163): Failed to find INSTANCE 'U215'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(167): Failed to find INSTANCE 'U216'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(45): Failed to find INSTANCE 'U217'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(33): Failed to find INSTANCE 'U218'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(36): Failed to find INSTANCE 'U219'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(326): Failed to find INSTANCE 'U220'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(326): Failed to find INSTANCE 'U221'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(39): Failed to find INSTANCE 'U222'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(312): Failed to find INSTANCE 'U223'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(321): Failed to find INSTANCE 'U224'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(319): Failed to find INSTANCE 'U225'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(314): Failed to find INSTANCE 'U226'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(316): Failed to find INSTANCE 'U227'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(30): Failed to find INSTANCE 'U228'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(60): Failed to find INSTANCE 'U229'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(25): Failed to find INSTANCE 'U230'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(308): Failed to find INSTANCE 'U231'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(306): Failed to find INSTANCE 'U232'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(27): Failed to find INSTANCE 'U233'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(28): Failed to find INSTANCE 'U234'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(53): Failed to find INSTANCE 'U235'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(278): Failed to find INSTANCE 'U236'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(295): Failed to find INSTANCE 'U237'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(297): Failed to find INSTANCE 'U238'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(293): Failed to find INSTANCE 'U239'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(66): Failed to find INSTANCE 'U240'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(23): Failed to find INSTANCE 'U241'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(51): Failed to find INSTANCE 'U242'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(93): Failed to find INSTANCE 'U243'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(280): Failed to find INSTANCE 'U244'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(286): Failed to find INSTANCE 'U245'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(282): Failed to find INSTANCE 'U246'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(41): Failed to find INSTANCE 'U247'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(283): Failed to find INSTANCE 'U248'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(85): Failed to find INSTANCE 'U249'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(34): Failed to find INSTANCE 'U250'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(49): Failed to find INSTANCE 'U251'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(276): Failed to find INSTANCE 'U252'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(87): Failed to find INSTANCE 'U253'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(273): Failed to find INSTANCE 'U254'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(271): Failed to find INSTANCE 'U255'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(268): Failed to find INSTANCE 'U256'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(267): Failed to find INSTANCE 'U257'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(215): Failed to find INSTANCE 'U258'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(218): Failed to find INSTANCE 'U259'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(263): Failed to find INSTANCE 'U260'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(79): Failed to find INSTANCE 'U261'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(54): Failed to find INSTANCE 'U262'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(257): Failed to find INSTANCE 'U263'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(90): Failed to find INSTANCE 'U264'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(181): Failed to find INSTANCE 'U265'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(251): Failed to find INSTANCE 'U266'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(249): Failed to find INSTANCE 'U267'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(247): Failed to find INSTANCE 'U268'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(245): Failed to find INSTANCE 'U269'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(211): Failed to find INSTANCE 'U270'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(241): Failed to find INSTANCE 'U271'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(239): Failed to find INSTANCE 'U272'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(237): Failed to find INSTANCE 'U273'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(236): Failed to find INSTANCE 'U274'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(74): Failed to find INSTANCE 'U275'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(111): Failed to find INSTANCE 'U276'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(231): Failed to find INSTANCE 'U277'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(229): Failed to find INSTANCE 'U278'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(227): Failed to find INSTANCE 'U279'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(225): Failed to find INSTANCE 'U280'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(175): Failed to find INSTANCE 'U281'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(100): Failed to find INSTANCE 'U282'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(184): Failed to find INSTANCE 'U283'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(19): Failed to find INSTANCE 'U284'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(21): Failed to find INSTANCE 'U285'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(213): Failed to find INSTANCE 'U286'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(114): Failed to find INSTANCE 'U287'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(206): Failed to find INSTANCE 'U288'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(208): Failed to find INSTANCE 'U289'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(206): Failed to find INSTANCE 'U290'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(193): Failed to find INSTANCE 'U291'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(202): Failed to find INSTANCE 'U292'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(197): Failed to find INSTANCE 'U293'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(198): Failed to find INSTANCE 'U294'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(194): Failed to find INSTANCE 'U295'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(194): Failed to find INSTANCE 'U296'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(192): Failed to find INSTANCE 'U297'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(144): Failed to find INSTANCE 'U298'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(95): Failed to find INSTANCE 'U299'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(58): Failed to find INSTANCE 'U300'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(119): Failed to find INSTANCE 'U301'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(182): Failed to find INSTANCE 'U302'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(180): Failed to find INSTANCE 'U303'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(178): Failed to find INSTANCE 'U304'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(176): Failed to find INSTANCE 'U305'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(174): Failed to find INSTANCE 'U306'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(172): Failed to find INSTANCE 'U307'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(170): Failed to find INSTANCE 'U308'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(168): Failed to find INSTANCE 'U309'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(165): Failed to find INSTANCE 'U310'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(63): Failed to find INSTANCE 'U311'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(102): Failed to find INSTANCE 'U312'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(69): Failed to find INSTANCE 'U313'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(158): Failed to find INSTANCE 'U314'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(156): Failed to find INSTANCE 'U315'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(88): Failed to find INSTANCE 'U316'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(147): Failed to find INSTANCE 'U317'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(99): Failed to find INSTANCE 'U318'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(148): Failed to find INSTANCE 'U319'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(146): Failed to find INSTANCE 'U320'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(144): Failed to find INSTANCE 'U321'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(142): Failed to find INSTANCE 'U322'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(140): Failed to find INSTANCE 'U323'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(62): Failed to find INSTANCE 'U324'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(136): Failed to find INSTANCE 'U325'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(134): Failed to find INSTANCE 'U326'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(132): Failed to find INSTANCE 'U327'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(55): Failed to find INSTANCE 'U328'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(128): Failed to find INSTANCE 'U329'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(126): Failed to find INSTANCE 'U330'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(124): Failed to find INSTANCE 'U331'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(97): Failed to find INSTANCE 'U332'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(120): Failed to find INSTANCE 'U333'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(118): Failed to find INSTANCE 'U334'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(115): Failed to find INSTANCE 'U335'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(113): Failed to find INSTANCE 'U336'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(111): Failed to find INSTANCE 'U337'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(109): Failed to find INSTANCE 'U338'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(81): Failed to find INSTANCE 'U339'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(106): Failed to find INSTANCE 'U340'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(77): Failed to find INSTANCE 'U341'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(42): Failed to find INSTANCE 'U342'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(100): Failed to find INSTANCE 'U343'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(98): Failed to find INSTANCE 'U344'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(96): Failed to find INSTANCE 'U345'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(94): Failed to find INSTANCE 'U346'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(92): Failed to find INSTANCE 'U347'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(90): Failed to find INSTANCE 'U348'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(88): Failed to find INSTANCE 'U349'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(86): Failed to find INSTANCE 'U350'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(84): Failed to find INSTANCE 'U351'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(82): Failed to find INSTANCE 'U352'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(79): Failed to find INSTANCE 'U353'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(77): Failed to find INSTANCE 'U354'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(75): Failed to find INSTANCE 'U355'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(73): Failed to find INSTANCE 'U356'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(71): Failed to find INSTANCE 'U357'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(69): Failed to find INSTANCE 'U358'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(67): Failed to find INSTANCE 'U359'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(65): Failed to find INSTANCE 'U360'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(63): Failed to find INSTANCE 'U361'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(61): Failed to find INSTANCE 'U362'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(59): Failed to find INSTANCE 'U363'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(57): Failed to find INSTANCE 'U364'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(55): Failed to find INSTANCE 'U365'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(52): Failed to find INSTANCE 'U366'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(50): Failed to find INSTANCE 'U367'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(48): Failed to find INSTANCE 'U368'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(46): Failed to find INSTANCE 'U369'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(44): Failed to find INSTANCE 'U370'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(42): Failed to find INSTANCE 'U371'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(40): Failed to find INSTANCE 'U372'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(38): Failed to find INSTANCE 'U373'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(36): Failed to find INSTANCE 'U374'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(34): Failed to find INSTANCE 'U375'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(32): Failed to find INSTANCE 'U376'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(30): Failed to find INSTANCE 'U377'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(28): Failed to find INSTANCE 'U378'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(26): Failed to find INSTANCE 'U379'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(24): Failed to find INSTANCE 'U380'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(22): Failed to find INSTANCE 'U381'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(20): Failed to find INSTANCE 'U382'.
+# ** Warning: (vsim-SDF-3250) /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf(18): Failed to find INSTANCE 'U383'.
+# ** Warning: (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# Loading timing data from /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_mapped.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ns  Iteration: 0  Region: /xnor_based_ripple_carry_adder32_tb  File: /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_tb.v
+add wave sim:/xnor_based_ripple_carry_adder32_tb/*
+run
+#                    0 add1_i= 00000000, add2_i = 00000000, result_o = 000000001 
+#                   10 add1_i= 29af2430, add2_i = 7a1b9abc, result_o = 0a3cabe61 
+#                   20 add1_i= 11003456, add2_i = 11112323, result_o = 02211570a 
+#                   30 add1_i= 81160873, add2_i = 1cce0178, result_o = 09de409e4 
+#                   35 add1_i= 20202012, add2_i = deadbeef, result_o = 0fecddf02 
+#                   43 add1_i= 8943deaf, add2_i = daadbaad, result_o = 163f1995d 
+#                   53 add1_i= abcd1234, add2_i = 00000000, result_o = 0abcd1201 
+#                   63 add1_i= 00000000, add2_i = 12345678, result_o = 012345601 
+#                   73 add1_i= 11114477, add2_i = eeaa0000, result_o = 0ffbb4408 
+#                   83 add1_i= 55555555, add2_i = aaaaaaaa, result_o = 100000000 
+#                   93 add1_i= 80519860, add2_i = 8086ba3e, result_o = 100d85281 
+#                   98 add1_i= fadc0720, add2_i = 00dc0810, result_o = 0fbb80f01 
+#                  106 add1_i= 40962048, add2_i = 20484096, result_o = 060de6001 
+#                  116 add1_i= 10242048, add2_i = 81924096, result_o = 091b66001 
+#                  216 add1_i= 00000001, add2_i = deafbeef, result_o = 0deafbe11 
+# ** Note: $finish    : /home/nayakkk/adders/adders32/xnor_based_ripple_carry_adder32/msim/postsynth/xnor_based_ripple_carry_adder32_tb.v(82)
+#    Time: 316 ns  Iteration: 0  Instance: /xnor_based_ripple_carry_adder32_tb

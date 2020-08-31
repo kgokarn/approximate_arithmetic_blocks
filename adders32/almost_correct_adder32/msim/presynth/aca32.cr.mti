@@ -1,0 +1,36 @@
+/home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/full_adder.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/full_adder.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} /home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/almost_correct_adder32_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/almost_correct_adder32_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module almost_correct_adder32_tb
+
+Top level modules:
+	almost_correct_adder32_tb
+
+} {} {}} /home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/small_adder.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/small_adder.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module small_adder
+
+Top level modules:
+	small_adder
+
+} {} {}} /home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/small_adder_msb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/small_adder_msb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module small_adder_msb
+
+Top level modules:
+	small_adder_msb
+
+} {} {}} /home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/almost_correct_adder32.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/almost_correct_adder32.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module almost_correct_adder32
+
+Top level modules:
+	almost_correct_adder32
+
+} {} {}}

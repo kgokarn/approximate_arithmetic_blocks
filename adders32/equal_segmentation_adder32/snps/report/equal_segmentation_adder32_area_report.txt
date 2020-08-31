@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : equal_segmentation_adder32
+Version: N-2017.09-SP3
+Date   : Sat Aug 29 14:33:34 2020
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/nayakkk/adders/adders32/equal_segmentation_adder32/snps/design/NangateOpenCellLibrary_typical_ccs.db)
+
+Number of ports:                           97
+Number of nets:                           203
+Number of cells:                          139
+Number of combinational cells:            139
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                       4
+
+Combinational area:                159.865996
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   159.865996
+Total area:                 undefined
+1

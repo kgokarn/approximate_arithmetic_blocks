@@ -1,0 +1,80 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/postsynth
+valmost_correct_adder32
+VG:1PXn;6on5bHPbKAZ_`f3
+r1
+31
+IGEk<cbaS^S_Z2Cc6YkK7H1
+Z0 d/home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth
+w1598725857
+8/home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/almost_correct_adder32.v
+F/home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/almost_correct_adder32.v
+L0 21
+Z1 OL;L;6.6d;45
+Z2 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z3 !s102 -nocovercells
+!s85 0
+!s100 LSP0Shf?_AAPi6ocWE1021
+valmost_correct_adder32_tb
+V7dE?5Kd_516N3NH@MGe]m3
+r1
+31
+Ih;R^5bHeDA<cb6@VW3SmY1
+Z4 d/home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth
+w1598812731
+8/home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/almost_correct_adder32_tb.v
+F/home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/almost_correct_adder32_tb.v
+L0 23
+R1
+R3
+R2
+!s85 0
+!s100 ]i5NDE9n@:Q1Q?_?GWF@J3
+vfull_adder
+V=k1M1;8@4Yl2Z09i7lMHQ1
+r1
+!s85 0
+31
+I6A:6_m]dMMPZfGj?iK4lU2
+R4
+w1597048279
+8/home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/full_adder.v
+F/home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/full_adder.v
+L0 21
+R1
+R3
+R2
+!s100 5zLOe<K3;X=:@;G9ihZNU2
+vsmall_adder
+Vn8W?gkSKCdQ@iBzY2aCia0
+r1
+31
+IhG47B?V^eOTImeIzHVKP60
+R4
+w1598813131
+8/home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/small_adder.v
+F/home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/small_adder.v
+L0 21
+R1
+R3
+R2
+!s85 0
+!s100 `I<5UPc]geV^SbkHlX7a31
+vsmall_adder_msb
+VgQV0Dd_imI;H`n]825lb>0
+r1
+31
+IZfM5iK2e`h5QV;BWO2SGf2
+R4
+w1598725995
+8/home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/small_adder_msb.v
+F/home/nayakkk/adders/adders32/almost_correct_adder32/msim/presynth/small_adder_msb.v
+L0 21
+R1
+R3
+R2
+!s85 0
+!s100 =L;m6V^d6FS<RL<eG^76D0

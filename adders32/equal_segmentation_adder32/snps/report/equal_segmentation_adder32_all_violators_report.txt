@@ -1,0 +1,20 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : equal_segmentation_adder32
+Version: N-2017.09-SP3
+Date   : Sat Aug 29 14:33:25 2020
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   equal_segmentation_adder32     0.00       159.87        -159.87  (VIOLATED)
+
+
+1

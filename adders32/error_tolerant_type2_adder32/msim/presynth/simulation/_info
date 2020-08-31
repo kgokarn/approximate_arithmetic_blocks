@@ -1,0 +1,80 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/postsynth
+vcarry_generator
+VJDZ9BSlQMm^dok6a:jb]W1
+r1
+31
+I6zb_hdcmoT=6l=[f=UO:U3
+Z0 d/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/presynth
+w1597909943
+8/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/presynth/carry_generator.v
+F/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/presynth/carry_generator.v
+L0 1
+Z1 OL;L;6.6d;45
+Z2 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z3 !s102 -nocovercells
+!s85 0
+!s100 WH4`dC]Q1l?Q83zN;b<R_1
+verror_tolerant_type2_adder32
+Vj5J?9f]RTkJ_[m?`mRARY1
+r1
+31
+IUQG^?NbW4b7YndiYnb80j1
+Z4 d/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/presynth
+w1598815491
+8/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/presynth/error_tolerant_type2_adder32.v
+F/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/presynth/error_tolerant_type2_adder32.v
+L0 1
+R1
+R3
+R2
+!s85 0
+!s100 9`<M:OCgGi;M12[_JK23]3
+verror_tolerant_type2_adder32_tb
+VIf6mH]2B`nc?N6B<d:cZY0
+r1
+31
+IHbh9NUPY:7PcHa[>WLiQD3
+R4
+w1598815463
+8/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/presynth/error_tolerant_type2_adder32_tb.v
+F/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/presynth/error_tolerant_type2_adder32_tb.v
+L0 23
+R1
+R3
+R2
+!s85 0
+!s100 4W0m870z>an^H`j^21knL3
+vfull_adder
+V=k1M1;8@4Yl2Z09i7lMHQ1
+r1
+!s85 0
+31
+I6A:6_m]dMMPZfGj?iK4lU2
+R4
+w1595235727
+8/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/presynth/full_adder.v
+F/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/presynth/full_adder.v
+L0 21
+R1
+R3
+R2
+!s100 5zLOe<K3;X=:@;G9ihZNU2
+vripple_carry_adder
+VIOVNJ^:^oHo]RB1X^1Q012
+r1
+31
+I:EYPHR;H2WXnKXRazKo8c2
+R4
+w1596527684
+8/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/presynth/ripple_carry_adder.v
+F/home/nayakkk/adders/adders32/error_tolerant_type2_adder32/msim/presynth/ripple_carry_adder.v
+L0 21
+R1
+R3
+R2
+!s85 0
+!s100 k`hYS>k23dNPV:VT?hNoi0
