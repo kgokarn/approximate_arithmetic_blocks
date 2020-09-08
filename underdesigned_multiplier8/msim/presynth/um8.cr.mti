@@ -1,0 +1,43 @@
+/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/underdesigned_multiplier8_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/underdesigned_multiplier8_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module underdesigned_multiplier8_tb
+
+Top level modules:
+	underdesigned_multiplier8_tb
+
+} {} {}} /home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/full_adder.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/full_adder.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} /home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/carry_save_adder.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/carry_save_adder.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module carry_save_adder
+
+Top level modules:
+	carry_save_adder
+
+} {} {}} /home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/underdesigned_multiplier8.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/underdesigned_multiplier8.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module underdesigned_multiplier8
+
+Top level modules:
+	underdesigned_multiplier8
+
+} {} {}} /home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/carry_lookahead_adder.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/carry_lookahead_adder.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module carry_lookahead_adder
+
+Top level modules:
+	carry_lookahead_adder
+
+} {} {}} /home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/small_multiplier.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/small_multiplier.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module small_multiplier
+
+Top level modules:
+	small_multiplier
+
+} {} {}}

@@ -1,0 +1,95 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/adders/adders32/ripple_carry_adder32/msim/postsynth
+vcarry_lookahead_adder
+VDdHhX55OY13Jn>^bNkoSI1
+r1
+31
+IB8[5]^8fnAFYoQL4=?6BV1
+Z0 d/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth
+w1599486379
+8/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/carry_lookahead_adder.v
+F/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/carry_lookahead_adder.v
+L0 21
+Z1 OL;L;6.6d;45
+Z2 !s102 -nocovercells
+Z3 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s85 0
+!s100 =J:=nDfmU9fE_DLe6A4E:3
+vcarry_save_adder
+VY:TfdlQDaZnCYeCcHB5cl0
+r1
+31
+IEWRoWY?f[Ak<k2T;MEz:`3
+Z4 d/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth
+w1598988910
+8/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/carry_save_adder.v
+F/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/carry_save_adder.v
+L0 1
+R1
+R2
+R3
+!s85 0
+!s100 QZ2G_i;_H<mHga6mNP=Sc1
+vfull_adder
+V=k1M1;8@4Yl2Z09i7lMHQ1
+r1
+!s85 0
+31
+I6A:6_m]dMMPZfGj?iK4lU2
+R4
+w1595235727
+8/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/full_adder.v
+F/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/full_adder.v
+L0 21
+R1
+R2
+R3
+!s100 5zLOe<K3;X=:@;G9ihZNU2
+vsmall_multiplier
+VW`FM5m;zGM?OS=hm0T=WL2
+r1
+31
+I@XH^i4PTLTH8nY2?TUUjz2
+R4
+w1599500045
+8/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/small_multiplier.v
+F/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/small_multiplier.v
+L0 1
+R1
+R2
+R3
+!s85 0
+!s100 e`?:^zK64Ez3?o?k>0[_z0
+vunderdesigned_multiplier8
+VP?6@M@Y]O9_2zgZ_Ke2>30
+r1
+31
+IRTcd0V?TZ]cDoLYToDbb`3
+R4
+w1599495384
+8/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/underdesigned_multiplier8.v
+F/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/underdesigned_multiplier8.v
+L0 1
+R1
+R2
+R3
+!s85 0
+!s100 _7<EoGkoL<BHl;WA@62mM3
+vunderdesigned_multiplier8_tb
+V>Xo^Nh:]WBJFN8M5oXAff1
+r1
+31
+IkHFKO^:<B4ee?ZE]mC^6c0
+R4
+w1599482204
+8/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/underdesigned_multiplier8_tb.v
+F/home/nayakkk/multipliers/underdesigned_multiplier8/msim/presynth/underdesigned_multiplier8_tb.v
+L0 24
+R1
+R2
+R3
+!s85 0
+!s100 T8UFZNR66J8AFXSSlTDhm2

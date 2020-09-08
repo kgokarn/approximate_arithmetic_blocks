@@ -1,0 +1,74 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : underdesigned_multiplier8
+Version: N-2017.09-SP3
+Date   : Mon Sep  7 22:46:36 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: op2_i[4] (input port clocked by clk)
+  Endpoint: product_o[14]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  underdesigned_multiplier8
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.03       0.03
+  input external delay                     0.20       0.23 r
+  op2_i[4] (in)                            0.00       0.23 r
+  U580/ZN (INV_X1)                         0.04       0.27 f
+  U455/ZN (NOR3_X1)                        0.11       0.38 r
+  U472/ZN (XNOR2_X1)                       0.08       0.46 r
+  U471/ZN (XNOR2_X1)                       0.07       0.53 r
+  U479/ZN (NAND2_X1)                       0.03       0.56 f
+  U477/ZN (AND2_X1)                        0.05       0.61 f
+  U460/ZN (XNOR2_X1)                       0.07       0.68 f
+  U459/ZN (XNOR2_X1)                       0.07       0.75 f
+  U391/ZN (XNOR2_X1)                       0.09       0.84 r
+  U329/Z (XOR2_X1)                         0.10       0.94 r
+  U328/Z (XOR2_X1)                         0.09       1.04 r
+  U396/ZN (NAND3_X1)                       0.05       1.09 f
+  U373/ZN (NAND2_X1)                       0.04       1.13 r
+  U372/ZN (NAND2_X1)                       0.04       1.16 f
+  U376/ZN (NAND2_X1)                       0.04       1.20 r
+  U375/ZN (NAND2_X1)                       0.03       1.23 f
+  U374/ZN (NAND2_X1)                       0.03       1.27 r
+  U356/ZN (AND2_X1)                        0.05       1.32 r
+  U359/ZN (NAND2_X1)                       0.03       1.35 f
+  U357/ZN (NAND2_X1)                       0.04       1.39 r
+  U355/ZN (NAND2_X1)                       0.03       1.42 f
+  U353/ZN (NAND2_X1)                       0.04       1.46 r
+  U420/ZN (NAND2_X1)                       0.03       1.50 f
+  U418/ZN (NAND2_X1)                       0.04       1.53 r
+  U379/ZN (NAND2_X1)                       0.03       1.57 f
+  U377/ZN (NAND2_X1)                       0.04       1.61 r
+  U486/ZN (NOR2_X1)                        0.03       1.64 f
+  U485/ZN (XNOR2_X1)                       0.05       1.69 f
+  product_o[14] (out)                      0.00       1.69 f
+  data arrival time                                   1.69
+
+  clock clk (rise edge)                    4.00       4.00
+  clock network delay (ideal)              0.03       4.03
+  output external delay                   -0.17       3.87
+  data required time                                  3.87
+  -----------------------------------------------------------
+  data required time                                  3.87
+  data arrival time                                  -1.69
+  -----------------------------------------------------------
+  slack (MET)                                         2.17
+
+
+1
