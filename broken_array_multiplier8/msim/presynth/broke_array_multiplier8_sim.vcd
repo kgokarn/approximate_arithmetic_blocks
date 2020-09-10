@@ -1,0 +1,1863 @@
+$date
+	Thu Sep 10 16:28:35 2020
+$end
+$version
+	ModelSim Version 6.6d
+$end
+$timescale
+	1ps
+$end
+$scope module broke_array_multiplier8_tb $end
+$var reg 8 ! operand1_i [7:0] $end
+$var reg 8 " operand2_i [7:0] $end
+$var wire 1 # result_o [15] $end
+$var wire 1 $ result_o [14] $end
+$var wire 1 % result_o [13] $end
+$var wire 1 & result_o [12] $end
+$var wire 1 ' result_o [11] $end
+$var wire 1 ( result_o [10] $end
+$var wire 1 ) result_o [9] $end
+$var wire 1 * result_o [8] $end
+$var wire 1 + result_o [7] $end
+$var wire 1 , result_o [6] $end
+$var wire 1 - result_o [5] $end
+$var wire 1 . result_o [4] $end
+$var wire 1 / result_o [3] $end
+$var wire 1 0 result_o [2] $end
+$var wire 1 1 result_o [1] $end
+$var wire 1 2 result_o [0] $end
+$scope module bam $end
+$var wire 1 3 op1_i [7] $end
+$var wire 1 4 op1_i [6] $end
+$var wire 1 5 op1_i [5] $end
+$var wire 1 6 op1_i [4] $end
+$var wire 1 7 op1_i [3] $end
+$var wire 1 8 op1_i [2] $end
+$var wire 1 9 op1_i [1] $end
+$var wire 1 : op1_i [0] $end
+$var wire 1 ; op2_i [7] $end
+$var wire 1 < op2_i [6] $end
+$var wire 1 = op2_i [5] $end
+$var wire 1 > op2_i [4] $end
+$var wire 1 ? op2_i [3] $end
+$var wire 1 @ op2_i [2] $end
+$var wire 1 A op2_i [1] $end
+$var wire 1 B op2_i [0] $end
+$var wire 1 # product_o [15] $end
+$var wire 1 $ product_o [14] $end
+$var wire 1 % product_o [13] $end
+$var wire 1 & product_o [12] $end
+$var wire 1 ' product_o [11] $end
+$var wire 1 ( product_o [10] $end
+$var wire 1 ) product_o [9] $end
+$var wire 1 * product_o [8] $end
+$var wire 1 + product_o [7] $end
+$var wire 1 , product_o [6] $end
+$var wire 1 - product_o [5] $end
+$var wire 1 . product_o [4] $end
+$var wire 1 / product_o [3] $end
+$var wire 1 0 product_o [2] $end
+$var wire 1 1 product_o [1] $end
+$var wire 1 2 product_o [0] $end
+$var wire 1 C sum_w [63] $end
+$var wire 1 D sum_w [62] $end
+$var wire 1 E sum_w [61] $end
+$var wire 1 F sum_w [60] $end
+$var wire 1 G sum_w [59] $end
+$var wire 1 H sum_w [58] $end
+$var wire 1 I sum_w [57] $end
+$var wire 1 J sum_w [56] $end
+$var wire 1 K sum_w [55] $end
+$var wire 1 L sum_w [54] $end
+$var wire 1 M sum_w [53] $end
+$var wire 1 N sum_w [52] $end
+$var wire 1 O sum_w [51] $end
+$var wire 1 P sum_w [50] $end
+$var wire 1 Q sum_w [49] $end
+$var wire 1 R sum_w [48] $end
+$var wire 1 S sum_w [47] $end
+$var wire 1 T sum_w [46] $end
+$var wire 1 U sum_w [45] $end
+$var wire 1 V sum_w [44] $end
+$var wire 1 W sum_w [43] $end
+$var wire 1 X sum_w [42] $end
+$var wire 1 Y sum_w [41] $end
+$var wire 1 Z sum_w [40] $end
+$var wire 1 [ sum_w [39] $end
+$var wire 1 \ sum_w [38] $end
+$var wire 1 ] sum_w [37] $end
+$var wire 1 ^ sum_w [36] $end
+$var wire 1 _ sum_w [35] $end
+$var wire 1 ` sum_w [34] $end
+$var wire 1 a sum_w [33] $end
+$var wire 1 b sum_w [32] $end
+$var wire 1 c sum_w [31] $end
+$var wire 1 d sum_w [30] $end
+$var wire 1 e sum_w [29] $end
+$var wire 1 f sum_w [28] $end
+$var wire 1 g sum_w [27] $end
+$var wire 1 h sum_w [26] $end
+$var wire 1 i sum_w [25] $end
+$var wire 1 j sum_w [24] $end
+$var wire 1 k sum_w [23] $end
+$var wire 1 l sum_w [22] $end
+$var wire 1 m sum_w [21] $end
+$var wire 1 n sum_w [20] $end
+$var wire 1 o sum_w [19] $end
+$var wire 1 p sum_w [18] $end
+$var wire 1 q sum_w [17] $end
+$var wire 1 r sum_w [16] $end
+$var wire 1 s sum_w [15] $end
+$var wire 1 t sum_w [14] $end
+$var wire 1 u sum_w [13] $end
+$var wire 1 v sum_w [12] $end
+$var wire 1 w sum_w [11] $end
+$var wire 1 x sum_w [10] $end
+$var wire 1 y sum_w [9] $end
+$var wire 1 z sum_w [8] $end
+$var wire 1 { sum_w [7] $end
+$var wire 1 | sum_w [6] $end
+$var wire 1 } sum_w [5] $end
+$var wire 1 ~ sum_w [4] $end
+$var wire 1 !! sum_w [3] $end
+$var wire 1 "! sum_w [2] $end
+$var wire 1 #! sum_w [1] $end
+$var wire 1 $! sum_w [0] $end
+$var wire 1 %! carry_w [63] $end
+$var wire 1 &! carry_w [62] $end
+$var wire 1 '! carry_w [61] $end
+$var wire 1 (! carry_w [60] $end
+$var wire 1 )! carry_w [59] $end
+$var wire 1 *! carry_w [58] $end
+$var wire 1 +! carry_w [57] $end
+$var wire 1 ,! carry_w [56] $end
+$var wire 1 -! carry_w [55] $end
+$var wire 1 .! carry_w [54] $end
+$var wire 1 /! carry_w [53] $end
+$var wire 1 0! carry_w [52] $end
+$var wire 1 1! carry_w [51] $end
+$var wire 1 2! carry_w [50] $end
+$var wire 1 3! carry_w [49] $end
+$var wire 1 4! carry_w [48] $end
+$var wire 1 5! carry_w [47] $end
+$var wire 1 6! carry_w [46] $end
+$var wire 1 7! carry_w [45] $end
+$var wire 1 8! carry_w [44] $end
+$var wire 1 9! carry_w [43] $end
+$var wire 1 :! carry_w [42] $end
+$var wire 1 ;! carry_w [41] $end
+$var wire 1 <! carry_w [40] $end
+$var wire 1 =! carry_w [39] $end
+$var wire 1 >! carry_w [38] $end
+$var wire 1 ?! carry_w [37] $end
+$var wire 1 @! carry_w [36] $end
+$var wire 1 A! carry_w [35] $end
+$var wire 1 B! carry_w [34] $end
+$var wire 1 C! carry_w [33] $end
+$var wire 1 D! carry_w [32] $end
+$var wire 1 E! carry_w [31] $end
+$var wire 1 F! carry_w [30] $end
+$var wire 1 G! carry_w [29] $end
+$var wire 1 H! carry_w [28] $end
+$var wire 1 I! carry_w [27] $end
+$var wire 1 J! carry_w [26] $end
+$var wire 1 K! carry_w [25] $end
+$var wire 1 L! carry_w [24] $end
+$var wire 1 M! carry_w [23] $end
+$var wire 1 N! carry_w [22] $end
+$var wire 1 O! carry_w [21] $end
+$var wire 1 P! carry_w [20] $end
+$var wire 1 Q! carry_w [19] $end
+$var wire 1 R! carry_w [18] $end
+$var wire 1 S! carry_w [17] $end
+$var wire 1 T! carry_w [16] $end
+$var wire 1 U! carry_w [15] $end
+$var wire 1 V! carry_w [14] $end
+$var wire 1 W! carry_w [13] $end
+$var wire 1 X! carry_w [12] $end
+$var wire 1 Y! carry_w [11] $end
+$var wire 1 Z! carry_w [10] $end
+$var wire 1 [! carry_w [9] $end
+$var wire 1 \! carry_w [8] $end
+$var wire 1 ]! carry_w [7] $end
+$var wire 1 ^! carry_w [6] $end
+$var wire 1 _! carry_w [5] $end
+$var wire 1 `! carry_w [4] $end
+$var wire 1 a! carry_w [3] $end
+$var wire 1 b! carry_w [2] $end
+$var wire 1 c! carry_w [1] $end
+$var wire 1 d! carry_w [0] $end
+$scope module hac0 $end
+$var wire 1 7 input1_i $end
+$var wire 1 A input2_i $end
+$var wire 1 ~ input3_i $end
+$var wire 1 w sum_o $end
+$var wire 1 Y! carry_o $end
+$var wire 1 e! partial_product_w $end
+$upscope $end
+$scope module hac1 $end
+$var wire 1 6 input1_i $end
+$var wire 1 A input2_i $end
+$var wire 1 } input3_i $end
+$var wire 1 v sum_o $end
+$var wire 1 X! carry_o $end
+$var wire 1 f! partial_product_w $end
+$upscope $end
+$scope module hac2 $end
+$var wire 1 5 input1_i $end
+$var wire 1 A input2_i $end
+$var wire 1 | input3_i $end
+$var wire 1 u sum_o $end
+$var wire 1 W! carry_o $end
+$var wire 1 g! partial_product_w $end
+$upscope $end
+$scope module hac3 $end
+$var wire 1 4 input1_i $end
+$var wire 1 A input2_i $end
+$var wire 1 { input3_i $end
+$var wire 1 t sum_o $end
+$var wire 1 V! carry_o $end
+$var wire 1 h! partial_product_w $end
+$upscope $end
+$scope module hac4 $end
+$var wire 1 8 input1_i $end
+$var wire 1 @ input2_i $end
+$var wire 1 w input3_i $end
+$var wire 1 p sum_o $end
+$var wire 1 R! carry_o $end
+$var wire 1 i! partial_product_w $end
+$upscope $end
+$scope module fac0 $end
+$var wire 1 7 input1_i $end
+$var wire 1 @ input2_i $end
+$var wire 1 v input3_i $end
+$var wire 1 R! input4_i $end
+$var wire 1 o sum_o $end
+$var wire 1 Q! carry_o $end
+$var wire 1 j! partial_product_w $end
+$upscope $end
+$scope module fac1 $end
+$var wire 1 6 input1_i $end
+$var wire 1 @ input2_i $end
+$var wire 1 u input3_i $end
+$var wire 1 Q! input4_i $end
+$var wire 1 n sum_o $end
+$var wire 1 P! carry_o $end
+$var wire 1 k! partial_product_w $end
+$upscope $end
+$scope module fac2 $end
+$var wire 1 5 input1_i $end
+$var wire 1 @ input2_i $end
+$var wire 1 t input3_i $end
+$var wire 1 P! input4_i $end
+$var wire 1 m sum_o $end
+$var wire 1 O! carry_o $end
+$var wire 1 l! partial_product_w $end
+$upscope $end
+$scope module fac3 $end
+$var wire 1 4 input1_i $end
+$var wire 1 @ input2_i $end
+$var wire 1 s input3_i $end
+$var wire 1 O! input4_i $end
+$var wire 1 l sum_o $end
+$var wire 1 N! carry_o $end
+$var wire 1 m! partial_product_w $end
+$upscope $end
+$scope module hac5 $end
+$var wire 1 3 input1_i $end
+$var wire 1 @ input2_i $end
+$var wire 1 N! input3_i $end
+$var wire 1 k sum_o $end
+$var wire 1 M! carry_o $end
+$var wire 1 n! partial_product_w $end
+$upscope $end
+$scope module hac6 $end
+$var wire 1 9 input1_i $end
+$var wire 1 ? input2_i $end
+$var wire 1 p input3_i $end
+$var wire 1 i sum_o $end
+$var wire 1 K! carry_o $end
+$var wire 1 o! partial_product_w $end
+$upscope $end
+$scope module fac4 $end
+$var wire 1 8 input1_i $end
+$var wire 1 ? input2_i $end
+$var wire 1 o input3_i $end
+$var wire 1 K! input4_i $end
+$var wire 1 h sum_o $end
+$var wire 1 J! carry_o $end
+$var wire 1 p! partial_product_w $end
+$upscope $end
+$scope module fac5 $end
+$var wire 1 7 input1_i $end
+$var wire 1 ? input2_i $end
+$var wire 1 n input3_i $end
+$var wire 1 J! input4_i $end
+$var wire 1 g sum_o $end
+$var wire 1 I! carry_o $end
+$var wire 1 q! partial_product_w $end
+$upscope $end
+$scope module fac6 $end
+$var wire 1 6 input1_i $end
+$var wire 1 ? input2_i $end
+$var wire 1 m input3_i $end
+$var wire 1 I! input4_i $end
+$var wire 1 f sum_o $end
+$var wire 1 H! carry_o $end
+$var wire 1 r! partial_product_w $end
+$upscope $end
+$scope module fac7 $end
+$var wire 1 5 input1_i $end
+$var wire 1 ? input2_i $end
+$var wire 1 l input3_i $end
+$var wire 1 H! input4_i $end
+$var wire 1 e sum_o $end
+$var wire 1 G! carry_o $end
+$var wire 1 s! partial_product_w $end
+$upscope $end
+$scope module fac8 $end
+$var wire 1 4 input1_i $end
+$var wire 1 ? input2_i $end
+$var wire 1 k input3_i $end
+$var wire 1 G! input4_i $end
+$var wire 1 d sum_o $end
+$var wire 1 F! carry_o $end
+$var wire 1 t! partial_product_w $end
+$upscope $end
+$scope module fac9 $end
+$var wire 1 3 input1_i $end
+$var wire 1 ? input2_i $end
+$var wire 1 M! input3_i $end
+$var wire 1 F! input4_i $end
+$var wire 1 c sum_o $end
+$var wire 1 E! carry_o $end
+$var wire 1 u! partial_product_w $end
+$upscope $end
+$scope module hac7 $end
+$var wire 1 : input1_i $end
+$var wire 1 > input2_i $end
+$var wire 1 i input3_i $end
+$var wire 1 b sum_o $end
+$var wire 1 D! carry_o $end
+$var wire 1 v! partial_product_w $end
+$upscope $end
+$scope module fac10 $end
+$var wire 1 9 input1_i $end
+$var wire 1 > input2_i $end
+$var wire 1 h input3_i $end
+$var wire 1 D! input4_i $end
+$var wire 1 a sum_o $end
+$var wire 1 C! carry_o $end
+$var wire 1 w! partial_product_w $end
+$upscope $end
+$scope module fac12 $end
+$var wire 1 8 input1_i $end
+$var wire 1 > input2_i $end
+$var wire 1 g input3_i $end
+$var wire 1 C! input4_i $end
+$var wire 1 ` sum_o $end
+$var wire 1 B! carry_o $end
+$var wire 1 x! partial_product_w $end
+$upscope $end
+$scope module fac13 $end
+$var wire 1 7 input1_i $end
+$var wire 1 > input2_i $end
+$var wire 1 f input3_i $end
+$var wire 1 B! input4_i $end
+$var wire 1 _ sum_o $end
+$var wire 1 A! carry_o $end
+$var wire 1 y! partial_product_w $end
+$upscope $end
+$scope module fac14 $end
+$var wire 1 6 input1_i $end
+$var wire 1 > input2_i $end
+$var wire 1 e input3_i $end
+$var wire 1 A! input4_i $end
+$var wire 1 ^ sum_o $end
+$var wire 1 @! carry_o $end
+$var wire 1 z! partial_product_w $end
+$upscope $end
+$scope module fac15 $end
+$var wire 1 5 input1_i $end
+$var wire 1 > input2_i $end
+$var wire 1 d input3_i $end
+$var wire 1 @! input4_i $end
+$var wire 1 ] sum_o $end
+$var wire 1 ?! carry_o $end
+$var wire 1 {! partial_product_w $end
+$upscope $end
+$scope module fac16 $end
+$var wire 1 4 input1_i $end
+$var wire 1 > input2_i $end
+$var wire 1 c input3_i $end
+$var wire 1 ?! input4_i $end
+$var wire 1 \ sum_o $end
+$var wire 1 >! carry_o $end
+$var wire 1 |! partial_product_w $end
+$upscope $end
+$scope module fac17 $end
+$var wire 1 4 input1_i $end
+$var wire 1 > input2_i $end
+$var wire 1 E! input3_i $end
+$var wire 1 >! input4_i $end
+$var wire 1 [ sum_o $end
+$var wire 1 =! carry_o $end
+$var wire 1 }! partial_product_w $end
+$upscope $end
+$scope module hac8 $end
+$var wire 1 : input1_i $end
+$var wire 1 = input2_i $end
+$var wire 1 a input3_i $end
+$var wire 1 Z sum_o $end
+$var wire 1 <! carry_o $end
+$var wire 1 ~! partial_product_w $end
+$upscope $end
+$scope module fac18 $end
+$var wire 1 9 input1_i $end
+$var wire 1 = input2_i $end
+$var wire 1 ` input3_i $end
+$var wire 1 <! input4_i $end
+$var wire 1 Y sum_o $end
+$var wire 1 ;! carry_o $end
+$var wire 1 !" partial_product_w $end
+$upscope $end
+$scope module fac19 $end
+$var wire 1 8 input1_i $end
+$var wire 1 = input2_i $end
+$var wire 1 _ input3_i $end
+$var wire 1 ;! input4_i $end
+$var wire 1 X sum_o $end
+$var wire 1 :! carry_o $end
+$var wire 1 "" partial_product_w $end
+$upscope $end
+$scope module fac20 $end
+$var wire 1 7 input1_i $end
+$var wire 1 = input2_i $end
+$var wire 1 ^ input3_i $end
+$var wire 1 :! input4_i $end
+$var wire 1 W sum_o $end
+$var wire 1 9! carry_o $end
+$var wire 1 #" partial_product_w $end
+$upscope $end
+$scope module fac21 $end
+$var wire 1 6 input1_i $end
+$var wire 1 = input2_i $end
+$var wire 1 ] input3_i $end
+$var wire 1 9! input4_i $end
+$var wire 1 V sum_o $end
+$var wire 1 8! carry_o $end
+$var wire 1 $" partial_product_w $end
+$upscope $end
+$scope module fac22 $end
+$var wire 1 5 input1_i $end
+$var wire 1 = input2_i $end
+$var wire 1 \ input3_i $end
+$var wire 1 8! input4_i $end
+$var wire 1 U sum_o $end
+$var wire 1 7! carry_o $end
+$var wire 1 %" partial_product_w $end
+$upscope $end
+$scope module fac23 $end
+$var wire 1 4 input1_i $end
+$var wire 1 = input2_i $end
+$var wire 1 [ input3_i $end
+$var wire 1 7! input4_i $end
+$var wire 1 T sum_o $end
+$var wire 1 6! carry_o $end
+$var wire 1 &" partial_product_w $end
+$upscope $end
+$scope module fac24 $end
+$var wire 1 3 input1_i $end
+$var wire 1 = input2_i $end
+$var wire 1 =! input3_i $end
+$var wire 1 6! input4_i $end
+$var wire 1 S sum_o $end
+$var wire 1 5! carry_o $end
+$var wire 1 '" partial_product_w $end
+$upscope $end
+$scope module hac9 $end
+$var wire 1 : input1_i $end
+$var wire 1 < input2_i $end
+$var wire 1 Y input3_i $end
+$var wire 1 R sum_o $end
+$var wire 1 4! carry_o $end
+$var wire 1 (" partial_product_w $end
+$upscope $end
+$scope module fac25 $end
+$var wire 1 9 input1_i $end
+$var wire 1 < input2_i $end
+$var wire 1 X input3_i $end
+$var wire 1 4! input4_i $end
+$var wire 1 Q sum_o $end
+$var wire 1 3! carry_o $end
+$var wire 1 )" partial_product_w $end
+$upscope $end
+$scope module fac26 $end
+$var wire 1 8 input1_i $end
+$var wire 1 < input2_i $end
+$var wire 1 W input3_i $end
+$var wire 1 3! input4_i $end
+$var wire 1 P sum_o $end
+$var wire 1 2! carry_o $end
+$var wire 1 *" partial_product_w $end
+$upscope $end
+$scope module fac27 $end
+$var wire 1 7 input1_i $end
+$var wire 1 < input2_i $end
+$var wire 1 V input3_i $end
+$var wire 1 2! input4_i $end
+$var wire 1 O sum_o $end
+$var wire 1 1! carry_o $end
+$var wire 1 +" partial_product_w $end
+$upscope $end
+$scope module fac28 $end
+$var wire 1 6 input1_i $end
+$var wire 1 < input2_i $end
+$var wire 1 U input3_i $end
+$var wire 1 1! input4_i $end
+$var wire 1 N sum_o $end
+$var wire 1 0! carry_o $end
+$var wire 1 ," partial_product_w $end
+$upscope $end
+$scope module fac29 $end
+$var wire 1 5 input1_i $end
+$var wire 1 < input2_i $end
+$var wire 1 T input3_i $end
+$var wire 1 0! input4_i $end
+$var wire 1 M sum_o $end
+$var wire 1 /! carry_o $end
+$var wire 1 -" partial_product_w $end
+$upscope $end
+$scope module fac30 $end
+$var wire 1 4 input1_i $end
+$var wire 1 < input2_i $end
+$var wire 1 S input3_i $end
+$var wire 1 /! input4_i $end
+$var wire 1 L sum_o $end
+$var wire 1 .! carry_o $end
+$var wire 1 ." partial_product_w $end
+$upscope $end
+$scope module fac31 $end
+$var wire 1 3 input1_i $end
+$var wire 1 < input2_i $end
+$var wire 1 5! input3_i $end
+$var wire 1 .! input4_i $end
+$var wire 1 K sum_o $end
+$var wire 1 -! carry_o $end
+$var wire 1 /" partial_product_w $end
+$upscope $end
+$scope module hac10 $end
+$var wire 1 : input1_i $end
+$var wire 1 ; input2_i $end
+$var wire 1 Q input3_i $end
+$var wire 1 J sum_o $end
+$var wire 1 ,! carry_o $end
+$var wire 1 0" partial_product_w $end
+$upscope $end
+$scope module fac32 $end
+$var wire 1 9 input1_i $end
+$var wire 1 ; input2_i $end
+$var wire 1 P input3_i $end
+$var wire 1 ,! input4_i $end
+$var wire 1 I sum_o $end
+$var wire 1 +! carry_o $end
+$var wire 1 1" partial_product_w $end
+$upscope $end
+$scope module fac33 $end
+$var wire 1 8 input1_i $end
+$var wire 1 ; input2_i $end
+$var wire 1 O input3_i $end
+$var wire 1 +! input4_i $end
+$var wire 1 H sum_o $end
+$var wire 1 *! carry_o $end
+$var wire 1 2" partial_product_w $end
+$upscope $end
+$scope module fac34 $end
+$var wire 1 7 input1_i $end
+$var wire 1 ; input2_i $end
+$var wire 1 N input3_i $end
+$var wire 1 *! input4_i $end
+$var wire 1 G sum_o $end
+$var wire 1 )! carry_o $end
+$var wire 1 3" partial_product_w $end
+$upscope $end
+$scope module fac35 $end
+$var wire 1 6 input1_i $end
+$var wire 1 ; input2_i $end
+$var wire 1 M input3_i $end
+$var wire 1 )! input4_i $end
+$var wire 1 F sum_o $end
+$var wire 1 (! carry_o $end
+$var wire 1 4" partial_product_w $end
+$upscope $end
+$scope module fac36 $end
+$var wire 1 5 input1_i $end
+$var wire 1 ; input2_i $end
+$var wire 1 L input3_i $end
+$var wire 1 (! input4_i $end
+$var wire 1 E sum_o $end
+$var wire 1 '! carry_o $end
+$var wire 1 5" partial_product_w $end
+$upscope $end
+$scope module fac37 $end
+$var wire 1 4 input1_i $end
+$var wire 1 ; input2_i $end
+$var wire 1 K input3_i $end
+$var wire 1 '! input4_i $end
+$var wire 1 D sum_o $end
+$var wire 1 &! carry_o $end
+$var wire 1 6" partial_product_w $end
+$upscope $end
+$scope module fac38 $end
+$var wire 1 3 input1_i $end
+$var wire 1 ; input2_i $end
+$var wire 1 -! input3_i $end
+$var wire 1 &! input4_i $end
+$var wire 1 C sum_o $end
+$var wire 1 %! carry_o $end
+$var wire 1 7" partial_product_w $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0$!
+0#!
+0"!
+0!!
+0~
+0}
+0|
+0{
+0z
+0y
+0x
+0w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0d!
+0c!
+0b!
+0a!
+0`!
+0_!
+0^!
+0]!
+0\!
+0[!
+0Z!
+0Y!
+0X!
+0W!
+0V!
+0U!
+0T!
+0S!
+0R!
+0Q!
+0P!
+0O!
+0N!
+0M!
+0L!
+0K!
+0J!
+0I!
+0H!
+0G!
+0F!
+0E!
+0D!
+0C!
+0B!
+0A!
+0@!
+0?!
+0>!
+0=!
+0<!
+0;!
+0:!
+09!
+08!
+07!
+06!
+05!
+04!
+03!
+02!
+01!
+00!
+0/!
+0.!
+0-!
+0,!
+0+!
+0*!
+0)!
+0(!
+0'!
+0&!
+0%!
+0e!
+0f!
+0g!
+0h!
+0i!
+0j!
+0k!
+0l!
+0m!
+0n!
+0o!
+0p!
+0q!
+0r!
+0s!
+0t!
+0u!
+0v!
+0w!
+0x!
+0y!
+0z!
+0{!
+0|!
+0}!
+0~!
+0!"
+0""
+0#"
+0$"
+0%"
+0&"
+0'"
+0("
+0)"
+0*"
+0+"
+0,"
+0-"
+0."
+0/"
+00"
+01"
+02"
+03"
+04"
+05"
+06"
+07"
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+$end
+#10000
+b101001 !
+b1111010 "
+1A
+1?
+1>
+1=
+1<
+1:
+17
+15
+1g!
+1s!
+1{!
+1%"
+1-"
+1e!
+1q!
+1y!
+1#"
+1+"
+1z
+1j
+1v!
+1~!
+1("
+1R
+1Z
+1b
+1O
+1W
+1_
+1g
+1w
+1M
+1U
+1]
+1e
+1u
+1n
+1^
+1V
+1N
+1F
+1p
+1`
+1X
+1P
+1H
+1I
+1Q
+1Y
+1i
+1G
+0O
+11!
+0W
+19!
+0g
+1I!
+1f
+0`
+0V
+18!
+0P
+0N
+10!
+0H
+0b
+1D!
+0R
+14!
+1J
+0Q
+13!
+1a
+0M
+1/!
+0G
+0I
+0U
+17!
+1O
+01!
+0Y
+0_
+1A!
+0^
+1@!
+0X
+1R
+04!
+1H
+1T
+00!
+1L
+0F
+0Z
+1<!
+1P
+0J
+1I
+1Y
+1E
+03!
+0]
+1?!
+1W
+09!
+1\
+08!
+0R
+14!
+1Q
+1J
+11
+1/
+1+
+1*
+1)
+1&
+#20000
+b10001 !
+b10001 "
+1B
+0A
+0?
+0=
+0<
+07
+16
+05
+0{!
+1~
+1z!
+0y!
+0("
+0+"
+0-"
+0~!
+0#"
+0%"
+0j
+0q!
+0s!
+0z
+0e!
+0g!
+1$!
+0u
+0e
+1g
+0I!
+1U
+07!
+0W
+1Z
+0<!
+1M
+0/!
+0O
+1R
+04!
+1_
+0A!
+1^
+1]
+0?!
+0\
+1V
+1W
+0@!
+1X
+0H
+0L
+1F
+0Y
+0T
+1N
+0f
+1`
+0n
+0g
+1Y
+0_
+1G
+0M
+0E
+0]
+1O
+0U
+0N
+1H
+0V
+0F
+0X
+0`
+0Y
+0Q
+0O
+0G
+0H
+0J
+0R
+12
+01
+0/
+1-
+0+
+0)
+0&
+#30000
+b10000001 !
+b11100 "
+0B
+1@
+1?
+06
+13
+1n!
+1u!
+0z!
+1j
+1r
+0$!
+0~
+0w
+0^
+1c
+1k
+1d
+1\
+0W
+0p
+0i
+0P
+1U
+1]
+1V
+1N
+0I
+1b
+0D!
+0a
+1G
+1O
+1H
+0Z
+02
+10
+1/
+1.
+0-
+0*
+1)
+1(
+#50000
+b1000100 !
+b111011 "
+1B
+1A
+0@
+1=
+0:
+18
+14
+03
+0u!
+1|
+1h!
+1t!
+1|!
+1}!
+1&"
+1p!
+1x!
+1""
+0j
+0v!
+0r
+0n!
+0k
+0b
+1X
+1`
+1h
+1T
+1[
+0\
+1>!
+1t
+1u
+0c
+1\
+0>!
+1n
+1m
+0T
+16!
+1a
+1Y
+1Q
+1J
+1R
+1Z
+1S
+1f
+1g
+0`
+1B!
+1L
+1E
+1A!
+0Y
+0R
+1^
+1W
+1P
+1I
+00
+0/
+0.
+1-
+1+
+1*
+1&
+#70000
+b10001001 !
+b11111111 "
+1@
+1<
+1;
+1:
+08
+17
+04
+13
+1{
+1s
+1n!
+1u!
+1'"
+1/"
+17"
+0|
+0h!
+0t!
+0|!
+0}!
+0&"
+1e!
+1j!
+1q!
+1y!
+1#"
+1+"
+13"
+0p!
+0x!
+0""
+1$!
+1z
+1r
+1j
+1v!
+1~!
+1("
+10"
+0J
+1,!
+1R
+0Z
+1<!
+1b
+0X
+1`
+0B!
+0h
+0G
+1)!
+0O
+11!
+0W
+19!
+0g
+1I!
+1o
+1w
+1T
+06!
+0[
+0\
+0d
+0u
+1C
+1K
+1c
+1k
+1l
+1e
+1d
+1\
+1D
+0n
+0T
+1p
+1h
+0f
+1H!
+0`
+0V
+18!
+0P
+0N
+10!
+0H
+1F
+0Q
+1Y
+0R
+14!
+1J
+0,!
+1M
+1G
+0)!
+0U
+17!
+1O
+01!
+0e
+1G!
+1_
+0A!
+1i
+1g
+0I!
+0^
+1W
+09!
+1f
+0H!
+1`
+0b
+1D!
+1X
+0d
+1F!
+1H
+1T
+00!
+0I
+0c
+1E!
+0]
+13!
+0a
+1C!
+0Y
+1;!
+1e
+0G!
+0_
+1A!
+08!
+1U
+07!
+1@!
+1d
+0F!
+1R
+04!
+0`
+1B!
+1Z
+0<!
+12!
+1[
+0\
+0U
+0O
+11!
+1_
+0;!
+1Q
+03!
+1c
+0E!
+1?!
+1N
+0G
+1)!
+1>!
+1P
+02!
+0J
+1,!
+0H
+1+!
+1O
+01!
+0F
+1(!
+0E
+1'!
+0N
+1*!
+0D
+1&!
+0C
+1%!
+12
+11
+10
+1/
+1,
+0+
+0*
+0)
+0(
+0&
+1#
+#80000
+b10101011 !
+b0 "
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+19
+15
+00"
+03"
+07"
+0("
+0+"
+0/"
+0~!
+0#"
+0'"
+0v!
+0y!
+0j
+0q!
+0u!
+0r
+0j!
+0n!
+0z
+0e!
+0s
+0$!
+0{
+0t
+0l
+0w
+0k
+0o
+0c
+0g
+0_
+1b
+0D!
+0S
+0W
+0Z
+0K
+0O
+0R
+1C
+0%!
+1G
+0)!
+1J
+0,!
+1I
+0+!
+1F
+0(!
+0*!
+1D
+0&!
+0P
+0L
+1a
+0C!
+0X
+0B!
+1\
+0>!
+0h
+0d
+0p
+0e
+0m
+0f
+1^
+0@!
+0i
+0?!
+0a
+0[
+1U
+0A!
+0Q
+0I
+0C
+0G
+0'!
+0D
+0J
+0^
+1N
+0T
+0\
+0b
+0U
+0M
+1G
+0F
+0N
+0G
+02
+01
+00
+0/
+0-
+0,
+0#
+#90000
+b110100 !
+b10010 "
+1A
+1>
+0:
+09
+18
+07
+16
+03
+1f!
+1z!
+1x!
+1{!
+1g!
+1u
+1]
+1`
+1^
+1v
+1o
+1W
+1Y
+1V
+1n
+1g
+1O
+1R
+1P
+1h
+1a
+1I
+1H
+0`
+1B!
+1_
+0Y
+1Z
+0R
+1X
+1Q
+1J
+1-
+1+
+1*
+1)
+#100000
+b10001 !
+b100000 "
+0A
+0>
+1=
+1:
+08
+05
+1~!
+1$"
+0x!
+0z!
+0{!
+0f!
+0g!
+0u
+0v
+0]
+0^
+1`
+0B!
+0Z
+1<!
+1;!
+0_
+0W
+0o
+0n
+0g
+0h
+0P
+0I
+0a
+0`
+1Y
+0;!
+1Z
+0<!
+0Y
+0X
+0Q
+0J
+0+
+0*
+#110000
+b1010101 !
+b10101010 "
+1A
+1?
+1;
+18
+14
+1h!
+1t!
+1&"
+16"
+1p!
+1""
+12"
+10"
+14"
+1j
+1r!
+1z
+1f!
+1v
+1f
+1F
+1J
+0H
+1*!
+1X
+1h
+1D
+1T
+1d
+1t
+1m
+1]
+1M
+1a
+1Q
+1G
+1_
+1o
+0h
+1J!
+0X
+1:!
+0J
+1,!
+0Z
+1<!
+0F
+1(!
+0V
+18!
+0f
+1H!
+1e
+0_
+1U
+0O
+1E
+1Y
+1I
+1W
+0Q
+1g
+0a
+1Z
+0<!
+1`
+1J
+0,!
+1P
+1R
+1H
+0*!
+1N
+1X
+0:!
+1^
+1Q
+0J
+1,!
+0I
+1+!
+0H
+1*!
+0G
+1)!
+1F
+11
+1/
+1,
+0)
+1'
+1&
+1%
+#120000
+b10000000 !
+b10000000 "
+0A
+0?
+0=
+0:
+08
+06
+04
+13
+17"
+06"
+04"
+02"
+00"
+0~!
+0""
+0$"
+0&"
+0j
+0p!
+0r!
+0t!
+0z
+0f!
+0h!
+0t
+0v
+0d
+1f
+0H!
+1h
+0J!
+0T
+1V
+08!
+0X
+0Z
+1J
+0,!
+1H
+0*!
+0F
+0D
+1C
+1G
+0)!
+1I
+0+!
+0Q
+0U
+1O
+0M
+0g
+1a
+0e
+1_
+0]
+0o
+0m
+0f
+0h
+0V
+1X
+0^
+1Z
+0`
+0N
+0J
+0(!
+0E
+0G
+0Y
+0W
+1Q
+0O
+0a
+0_
+0X
+0Z
+0H
+1J
+0P
+0R
+0I
+0Q
+0J
+01
+0/
+0-
+0,
+0'
+0&
+0%
+1$
+#125000
+b11111010 !
+b0 "
+0;
+19
+17
+16
+15
+14
+07"
+0C
+0$
+#135000
+b1000000 !
+b100000 "
+1=
+09
+07
+06
+05
+03
+1&"
+1T
+1M
+1F
+1'
+#145000
+b100100 !
+b10010010 "
+1A
+1>
+0=
+1;
+18
+15
+04
+1g!
+1{!
+15"
+1x!
+12"
+0&"
+0T
+1H
+1`
+1E
+1]
+1u
+1n
+1V
+1Y
+0M
+0F
+1R
+1O
+1g
+0`
+1B!
+0H
+1*!
+1G
+1_
+0Y
+0R
+1X
+1Q
+1J
+1+
+1(
+0'
+1&
+#245000
+b0 !
+b1 "
+1B
+0A
+0>
+0;
+08
+05
+02"
+05"
+0x!
+0{!
+0g!
+0u
+0]
+1`
+0B!
+0E
+1H
+0*!
+0G
+0_
+1Y
+0V
+0n
+0g
+0O
+1R
+0X
+0Q
+0H
+0`
+0Y
+0J
+0R
+0+
+0(
+0&

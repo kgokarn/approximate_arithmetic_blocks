@@ -1,0 +1,29 @@
+/home/nayakkk/multipliers/broken_array_multiplier8/msim/presynth/broke_array_multiplier8.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/broken_array_multiplier8/msim/presynth/broke_array_multiplier8.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module broke_array_multiplier8
+
+Top level modules:
+	broke_array_multiplier8
+
+} {} {}} /home/nayakkk/multipliers/broken_array_multiplier8/msim/presynth/broke_array_multiplier8_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/broken_array_multiplier8/msim/presynth/broke_array_multiplier8_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module broke_array_multiplier8_tb
+
+Top level modules:
+	broke_array_multiplier8_tb
+
+} {} {}} /home/nayakkk/multipliers/broken_array_multiplier8/msim/presynth/half_adder_cell.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/broken_array_multiplier8/msim/presynth/half_adder_cell.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module half_adder_cell
+
+Top level modules:
+	half_adder_cell
+
+} {} {}} /home/nayakkk/multipliers/broken_array_multiplier8/msim/presynth/full_adder_cell.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/broken_array_multiplier8/msim/presynth/full_adder_cell.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module full_adder_cell
+
+Top level modules:
+	full_adder_cell
+
+} {} {}}

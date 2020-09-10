@@ -1,0 +1,15 @@
+/home/nayakkk/multipliers/broken_array_multiplier8/msim/postsynth/broken_array_multiplier8_netlist.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/broken_array_multiplier8/msim/postsynth/broken_array_multiplier8_netlist.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module broke_array_multiplier8
+
+Top level modules:
+	broke_array_multiplier8
+
+} {} {}} /home/nayakkk/multipliers/broken_array_multiplier8/msim/postsynth/broke_array_multiplier8_tb.v {1 {vlog -work simulation -vopt -nocovercells /home/nayakkk/multipliers/broken_array_multiplier8/msim/postsynth/broke_array_multiplier8_tb.v
+Model Technology ModelSim SE-64 vlog 6.6d Compiler 2010.11 Nov  1 2010
+-- Compiling module broke_array_multiplier8_tb
+
+Top level modules:
+	broke_array_multiplier8_tb
+
+} {} {}}

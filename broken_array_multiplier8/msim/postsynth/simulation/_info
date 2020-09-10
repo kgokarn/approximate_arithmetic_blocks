@@ -1,0 +1,35 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/array_multiplier
+vbroke_array_multiplier8
+Vj@fMD^dZ1fUQ9W@@TOYNN3
+r1
+!s85 0
+31
+ID6Vn:SYK9:2oN<QWo47N?1
+Z0 d/home/nayakkk/multipliers/broken_array_multiplier8/msim/postsynth
+w1599748705
+8/home/nayakkk/multipliers/broken_array_multiplier8/msim/postsynth/broken_array_multiplier8_netlist.v
+F/home/nayakkk/multipliers/broken_array_multiplier8/msim/postsynth/broken_array_multiplier8_netlist.v
+L0 8
+Z1 OL;L;6.6d;45
+Z2 !s102 -nocovercells
+Z3 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 k]z2WYZBAZQHGbR@NHbhB3
+vbroke_array_multiplier8_tb
+V_ii;YK6UJXSOj98_DG5Uj3
+r1
+31
+I3@?76EXKTZUk3QSIUD2fb2
+Z4 d/home/nayakkk/multipliers/broken_array_multiplier8/msim/postsynth
+w1599748934
+8/home/nayakkk/multipliers/broken_array_multiplier8/msim/postsynth/broke_array_multiplier8_tb.v
+F/home/nayakkk/multipliers/broken_array_multiplier8/msim/postsynth/broke_array_multiplier8_tb.v
+L0 24
+R1
+R2
+R3
+!s85 0
+!s100 5^?kSc;Ed1JYz7dFGiSl23
