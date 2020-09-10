@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+d/home/nayakkk/array_multiplier
+varray_multiplier8
+V3Rig9PX1BXiS_TX2=_9LB1
+r1
+31
+IL0^A=:^5L2LnKOBbM3;e33
+Z0 d/home/nayakkk/multipliers/array_multiplier8/msim/presynth
+w1599763020
+8/home/nayakkk/multipliers/array_multiplier8/msim/presynth/array_multiplier8.v
+F/home/nayakkk/multipliers/array_multiplier8/msim/presynth/array_multiplier8.v
+L0 21
+Z1 OL;L;6.6d;45
+Z2 o-work simulation -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z3 !s102 -nocovercells
+!s85 0
+!s100 3Rg6Wz?e`]1[m<Cj_BP402
+varray_multiplier8_tb
+VoHCV7ilcATUYmW:a8[G0I0
+r1
+31
+IeWzkAc7Yc:WEi;934l8a:0
+Z4 d/home/nayakkk/multipliers/array_multiplier8/msim/presynth
+w1599763066
+8/home/nayakkk/multipliers/array_multiplier8/msim/presynth/array_multiplier8_tb.v
+F/home/nayakkk/multipliers/array_multiplier8/msim/presynth/array_multiplier8_tb.v
+L0 24
+R1
+R3
+R2
+!s85 0
+!s100 3B]l]`K4g2`VkBIPP6Jg>1
+vfull_adder_cell
+V2_DfjVE?J91dOa3=PHGz73
+r1
+!s85 0
+31
+ICBaT>e]P?29CaZICk0G@41
+R4
+w1599677360
+8/home/nayakkk/multipliers/array_multiplier8/msim/presynth/full_adder_cell.v
+F/home/nayakkk/multipliers/array_multiplier8/msim/presynth/full_adder_cell.v
+L0 21
+R1
+R3
+R2
+!s100 UF5do67oaK1iWOdfWO?SB2
+vhalf_adder_cell
+VVi?V?VH5IiU[Hm28?i9lT0
+r1
+31
+I^X2zZ`SRgUfRHWoOjGSb^2
+R4
+w1599677355
+8/home/nayakkk/multipliers/array_multiplier8/msim/presynth/half_adder_cell.v
+F/home/nayakkk/multipliers/array_multiplier8/msim/presynth/half_adder_cell.v
+L0 21
+R1
+R3
+R2
+!s85 0
+!s100 [Z;j`aT9V_QMdd_^chYak1

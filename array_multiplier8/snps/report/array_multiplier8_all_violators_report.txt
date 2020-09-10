@@ -1,0 +1,20 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : array_multiplier8
+Version: N-2017.09-SP3
+Date   : Thu Sep 10 20:51:17 2020
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   array_multiplier8            0.00         399.53        -399.53  (VIOLATED)
+
+
+1
